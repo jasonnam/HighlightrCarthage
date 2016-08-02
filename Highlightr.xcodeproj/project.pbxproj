@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC431CD61D50D5A10066AD8E /* Highlightr.h in Headers */ = {isa = PBXBuildFile; fileRef = EC431CD51D50D5A10066AD8E /* Highlightr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC431DD41D50D5E20066AD8E /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE01D50D5E10066AD8E /* highlight.min.js */; };
+		EC431DD51D50D5E20066AD8E /* 1c.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE21D50D5E10066AD8E /* 1c.min.js */; };
+		EC431DD61D50D5E20066AD8E /* accesslog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE31D50D5E10066AD8E /* accesslog.min.js */; };
+		EC431DD71D50D5E20066AD8E /* actionscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE41D50D5E10066AD8E /* actionscript.min.js */; };
+		EC431DD81D50D5E20066AD8E /* ada.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE51D50D5E10066AD8E /* ada.min.js */; };
+		EC431DD91D50D5E20066AD8E /* apache.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE61D50D5E10066AD8E /* apache.min.js */; };
+		EC431DDA1D50D5E20066AD8E /* applescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE71D50D5E10066AD8E /* applescript.min.js */; };
+		EC431DDB1D50D5E20066AD8E /* arduino.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE81D50D5E10066AD8E /* arduino.min.js */; };
+		EC431DDC1D50D5E20066AD8E /* armasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CE91D50D5E10066AD8E /* armasm.min.js */; };
+		EC431DDD1D50D5E20066AD8E /* asciidoc.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CEA1D50D5E10066AD8E /* asciidoc.min.js */; };
+		EC431DDE1D50D5E20066AD8E /* aspectj.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CEB1D50D5E10066AD8E /* aspectj.min.js */; };
+		EC431DDF1D50D5E20066AD8E /* autohotkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CEC1D50D5E10066AD8E /* autohotkey.min.js */; };
+		EC431DE01D50D5E20066AD8E /* autoit.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CED1D50D5E10066AD8E /* autoit.min.js */; };
+		EC431DE11D50D5E20066AD8E /* avrasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CEE1D50D5E10066AD8E /* avrasm.min.js */; };
+		EC431DE21D50D5E20066AD8E /* axapta.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CEF1D50D5E10066AD8E /* axapta.min.js */; };
+		EC431DE31D50D5E20066AD8E /* bash.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF01D50D5E10066AD8E /* bash.min.js */; };
+		EC431DE41D50D5E20066AD8E /* basic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF11D50D5E10066AD8E /* basic.min.js */; };
+		EC431DE51D50D5E20066AD8E /* bnf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF21D50D5E10066AD8E /* bnf.min.js */; };
+		EC431DE61D50D5E20066AD8E /* brainfuck.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF31D50D5E10066AD8E /* brainfuck.min.js */; };
+		EC431DE71D50D5E20066AD8E /* cal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF41D50D5E10066AD8E /* cal.min.js */; };
+		EC431DE81D50D5E20066AD8E /* capnproto.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF51D50D5E10066AD8E /* capnproto.min.js */; };
+		EC431DE91D50D5E20066AD8E /* ceylon.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF61D50D5E10066AD8E /* ceylon.min.js */; };
+		EC431DEA1D50D5E20066AD8E /* clojure-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF71D50D5E10066AD8E /* clojure-repl.min.js */; };
+		EC431DEB1D50D5E20066AD8E /* clojure.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF81D50D5E10066AD8E /* clojure.min.js */; };
+		EC431DEC1D50D5E20066AD8E /* cmake.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CF91D50D5E10066AD8E /* cmake.min.js */; };
+		EC431DED1D50D5E20066AD8E /* coffeescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFA1D50D5E10066AD8E /* coffeescript.min.js */; };
+		EC431DEE1D50D5E20066AD8E /* coq.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFB1D50D5E10066AD8E /* coq.min.js */; };
+		EC431DEF1D50D5E20066AD8E /* cos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFC1D50D5E10066AD8E /* cos.min.js */; };
+		EC431DF01D50D5E20066AD8E /* cpp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFD1D50D5E10066AD8E /* cpp.min.js */; };
+		EC431DF11D50D5E20066AD8E /* crmsh.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFE1D50D5E10066AD8E /* crmsh.min.js */; };
+		EC431DF21D50D5E20066AD8E /* crystal.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431CFF1D50D5E10066AD8E /* crystal.min.js */; };
+		EC431DF31D50D5E20066AD8E /* cs.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D001D50D5E10066AD8E /* cs.min.js */; };
+		EC431DF41D50D5E20066AD8E /* csp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D011D50D5E10066AD8E /* csp.min.js */; };
+		EC431DF51D50D5E20066AD8E /* css.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D021D50D5E10066AD8E /* css.min.js */; };
+		EC431DF61D50D5E20066AD8E /* d.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D031D50D5E10066AD8E /* d.min.js */; };
+		EC431DF71D50D5E20066AD8E /* dart.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D041D50D5E10066AD8E /* dart.min.js */; };
+		EC431DF81D50D5E20066AD8E /* delphi.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D051D50D5E10066AD8E /* delphi.min.js */; };
+		EC431DF91D50D5E20066AD8E /* diff.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D061D50D5E10066AD8E /* diff.min.js */; };
+		EC431DFA1D50D5E20066AD8E /* django.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D071D50D5E10066AD8E /* django.min.js */; };
+		EC431DFB1D50D5E20066AD8E /* dns.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D081D50D5E10066AD8E /* dns.min.js */; };
+		EC431DFC1D50D5E20066AD8E /* dockerfile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D091D50D5E10066AD8E /* dockerfile.min.js */; };
+		EC431DFD1D50D5E20066AD8E /* dos.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0A1D50D5E10066AD8E /* dos.min.js */; };
+		EC431DFE1D50D5E20066AD8E /* dsconfig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0B1D50D5E10066AD8E /* dsconfig.min.js */; };
+		EC431DFF1D50D5E20066AD8E /* dts.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0C1D50D5E10066AD8E /* dts.min.js */; };
+		EC431E001D50D5E20066AD8E /* dust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0D1D50D5E10066AD8E /* dust.min.js */; };
+		EC431E011D50D5E20066AD8E /* elixir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0E1D50D5E10066AD8E /* elixir.min.js */; };
+		EC431E021D50D5E20066AD8E /* elm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D0F1D50D5E10066AD8E /* elm.min.js */; };
+		EC431E031D50D5E20066AD8E /* erb.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D101D50D5E10066AD8E /* erb.min.js */; };
+		EC431E041D50D5E20066AD8E /* erlang-repl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D111D50D5E10066AD8E /* erlang-repl.min.js */; };
+		EC431E051D50D5E20066AD8E /* erlang.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D121D50D5E10066AD8E /* erlang.min.js */; };
+		EC431E061D50D5E20066AD8E /* excel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D131D50D5E10066AD8E /* excel.min.js */; };
+		EC431E071D50D5E20066AD8E /* fix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D141D50D5E10066AD8E /* fix.min.js */; };
+		EC431E081D50D5E20066AD8E /* fortran.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D151D50D5E10066AD8E /* fortran.min.js */; };
+		EC431E091D50D5E20066AD8E /* fsharp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D161D50D5E10066AD8E /* fsharp.min.js */; };
+		EC431E0A1D50D5E20066AD8E /* gams.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D171D50D5E10066AD8E /* gams.min.js */; };
+		EC431E0B1D50D5E20066AD8E /* gauss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D181D50D5E10066AD8E /* gauss.min.js */; };
+		EC431E0C1D50D5E20066AD8E /* gcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D191D50D5E10066AD8E /* gcode.min.js */; };
+		EC431E0D1D50D5E20066AD8E /* gherkin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1A1D50D5E10066AD8E /* gherkin.min.js */; };
+		EC431E0E1D50D5E20066AD8E /* glsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1B1D50D5E10066AD8E /* glsl.min.js */; };
+		EC431E0F1D50D5E20066AD8E /* go.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1C1D50D5E10066AD8E /* go.min.js */; };
+		EC431E101D50D5E20066AD8E /* golo.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1D1D50D5E10066AD8E /* golo.min.js */; };
+		EC431E111D50D5E20066AD8E /* gradle.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1E1D50D5E10066AD8E /* gradle.min.js */; };
+		EC431E121D50D5E20066AD8E /* groovy.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D1F1D50D5E10066AD8E /* groovy.min.js */; };
+		EC431E131D50D5E20066AD8E /* haml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D201D50D5E10066AD8E /* haml.min.js */; };
+		EC431E141D50D5E20066AD8E /* handlebars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D211D50D5E10066AD8E /* handlebars.min.js */; };
+		EC431E151D50D5E20066AD8E /* haskell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D221D50D5E10066AD8E /* haskell.min.js */; };
+		EC431E161D50D5E20066AD8E /* haxe.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D231D50D5E10066AD8E /* haxe.min.js */; };
+		EC431E171D50D5E20066AD8E /* hsp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D241D50D5E10066AD8E /* hsp.min.js */; };
+		EC431E181D50D5E20066AD8E /* htmlbars.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D251D50D5E10066AD8E /* htmlbars.min.js */; };
+		EC431E191D50D5E20066AD8E /* http.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D261D50D5E10066AD8E /* http.min.js */; };
+		EC431E1A1D50D5E20066AD8E /* inform7.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D271D50D5E10066AD8E /* inform7.min.js */; };
+		EC431E1B1D50D5E20066AD8E /* ini.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D281D50D5E10066AD8E /* ini.min.js */; };
+		EC431E1C1D50D5E20066AD8E /* irpf90.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D291D50D5E10066AD8E /* irpf90.min.js */; };
+		EC431E1D1D50D5E20066AD8E /* java.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2A1D50D5E10066AD8E /* java.min.js */; };
+		EC431E1E1D50D5E20066AD8E /* javascript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2B1D50D5E10066AD8E /* javascript.min.js */; };
+		EC431E1F1D50D5E20066AD8E /* json.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2C1D50D5E10066AD8E /* json.min.js */; };
+		EC431E201D50D5E20066AD8E /* julia.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2D1D50D5E10066AD8E /* julia.min.js */; };
+		EC431E211D50D5E20066AD8E /* kotlin.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2E1D50D5E10066AD8E /* kotlin.min.js */; };
+		EC431E221D50D5E20066AD8E /* lasso.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D2F1D50D5E10066AD8E /* lasso.min.js */; };
+		EC431E231D50D5E20066AD8E /* ldif.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D301D50D5E10066AD8E /* ldif.min.js */; };
+		EC431E241D50D5E20066AD8E /* less.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D311D50D5E10066AD8E /* less.min.js */; };
+		EC431E251D50D5E20066AD8E /* lisp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D321D50D5E10066AD8E /* lisp.min.js */; };
+		EC431E261D50D5E20066AD8E /* livecodeserver.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D331D50D5E10066AD8E /* livecodeserver.min.js */; };
+		EC431E271D50D5E20066AD8E /* livescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D341D50D5E10066AD8E /* livescript.min.js */; };
+		EC431E281D50D5E20066AD8E /* lsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D351D50D5E10066AD8E /* lsl.min.js */; };
+		EC431E291D50D5E20066AD8E /* lua.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D361D50D5E10066AD8E /* lua.min.js */; };
+		EC431E2A1D50D5E20066AD8E /* makefile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D371D50D5E10066AD8E /* makefile.min.js */; };
+		EC431E2B1D50D5E20066AD8E /* markdown.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D381D50D5E10066AD8E /* markdown.min.js */; };
+		EC431E2C1D50D5E20066AD8E /* mathematica.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D391D50D5E10066AD8E /* mathematica.min.js */; };
+		EC431E2D1D50D5E20066AD8E /* matlab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3A1D50D5E10066AD8E /* matlab.min.js */; };
+		EC431E2E1D50D5E20066AD8E /* maxima.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3B1D50D5E10066AD8E /* maxima.min.js */; };
+		EC431E2F1D50D5E20066AD8E /* mel.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3C1D50D5E10066AD8E /* mel.min.js */; };
+		EC431E301D50D5E20066AD8E /* mercury.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3D1D50D5E10066AD8E /* mercury.min.js */; };
+		EC431E311D50D5E20066AD8E /* mipsasm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3E1D50D5E10066AD8E /* mipsasm.min.js */; };
+		EC431E321D50D5E20066AD8E /* mizar.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D3F1D50D5E10066AD8E /* mizar.min.js */; };
+		EC431E331D50D5E20066AD8E /* mojolicious.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D401D50D5E10066AD8E /* mojolicious.min.js */; };
+		EC431E341D50D5E20066AD8E /* monkey.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D411D50D5E10066AD8E /* monkey.min.js */; };
+		EC431E351D50D5E20066AD8E /* moonscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D421D50D5E10066AD8E /* moonscript.min.js */; };
+		EC431E361D50D5E20066AD8E /* nginx.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D431D50D5E10066AD8E /* nginx.min.js */; };
+		EC431E371D50D5E20066AD8E /* nimrod.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D441D50D5E10066AD8E /* nimrod.min.js */; };
+		EC431E381D50D5E20066AD8E /* nix.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D451D50D5E10066AD8E /* nix.min.js */; };
+		EC431E391D50D5E20066AD8E /* nsis.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D461D50D5E10066AD8E /* nsis.min.js */; };
+		EC431E3A1D50D5E20066AD8E /* objectivec.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D471D50D5E10066AD8E /* objectivec.min.js */; };
+		EC431E3B1D50D5E20066AD8E /* ocaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D481D50D5E10066AD8E /* ocaml.min.js */; };
+		EC431E3C1D50D5E20066AD8E /* openscad.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D491D50D5E10066AD8E /* openscad.min.js */; };
+		EC431E3D1D50D5E20066AD8E /* oxygene.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4A1D50D5E10066AD8E /* oxygene.min.js */; };
+		EC431E3E1D50D5E20066AD8E /* parser3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4B1D50D5E10066AD8E /* parser3.min.js */; };
+		EC431E3F1D50D5E20066AD8E /* perl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4C1D50D5E10066AD8E /* perl.min.js */; };
+		EC431E401D50D5E20066AD8E /* pf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4D1D50D5E10066AD8E /* pf.min.js */; };
+		EC431E411D50D5E20066AD8E /* php.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4E1D50D5E10066AD8E /* php.min.js */; };
+		EC431E421D50D5E20066AD8E /* pony.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D4F1D50D5E10066AD8E /* pony.min.js */; };
+		EC431E431D50D5E20066AD8E /* powershell.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D501D50D5E10066AD8E /* powershell.min.js */; };
+		EC431E441D50D5E20066AD8E /* processing.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D511D50D5E10066AD8E /* processing.min.js */; };
+		EC431E451D50D5E20066AD8E /* profile.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D521D50D5E10066AD8E /* profile.min.js */; };
+		EC431E461D50D5E20066AD8E /* prolog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D531D50D5E10066AD8E /* prolog.min.js */; };
+		EC431E471D50D5E20066AD8E /* protobuf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D541D50D5E10066AD8E /* protobuf.min.js */; };
+		EC431E481D50D5E20066AD8E /* puppet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D551D50D5E10066AD8E /* puppet.min.js */; };
+		EC431E491D50D5E20066AD8E /* purebasic.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D561D50D5E10066AD8E /* purebasic.min.js */; };
+		EC431E4A1D50D5E20066AD8E /* python.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D571D50D5E10066AD8E /* python.min.js */; };
+		EC431E4B1D50D5E20066AD8E /* q.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D581D50D5E10066AD8E /* q.min.js */; };
+		EC431E4C1D50D5E20066AD8E /* qml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D591D50D5E10066AD8E /* qml.min.js */; };
+		EC431E4D1D50D5E20066AD8E /* r.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5A1D50D5E10066AD8E /* r.min.js */; };
+		EC431E4E1D50D5E20066AD8E /* rib.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5B1D50D5E10066AD8E /* rib.min.js */; };
+		EC431E4F1D50D5E20066AD8E /* roboconf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5C1D50D5E10066AD8E /* roboconf.min.js */; };
+		EC431E501D50D5E20066AD8E /* rsl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5D1D50D5E10066AD8E /* rsl.min.js */; };
+		EC431E511D50D5E20066AD8E /* ruby.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5E1D50D5E20066AD8E /* ruby.min.js */; };
+		EC431E521D50D5E20066AD8E /* ruleslanguage.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D5F1D50D5E20066AD8E /* ruleslanguage.min.js */; };
+		EC431E531D50D5E20066AD8E /* rust.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D601D50D5E20066AD8E /* rust.min.js */; };
+		EC431E541D50D5E20066AD8E /* scala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D611D50D5E20066AD8E /* scala.min.js */; };
+		EC431E551D50D5E20066AD8E /* scheme.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D621D50D5E20066AD8E /* scheme.min.js */; };
+		EC431E561D50D5E20066AD8E /* scilab.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D631D50D5E20066AD8E /* scilab.min.js */; };
+		EC431E571D50D5E20066AD8E /* scss.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D641D50D5E20066AD8E /* scss.min.js */; };
+		EC431E581D50D5E20066AD8E /* smali.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D651D50D5E20066AD8E /* smali.min.js */; };
+		EC431E591D50D5E20066AD8E /* smalltalk.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D661D50D5E20066AD8E /* smalltalk.min.js */; };
+		EC431E5A1D50D5E20066AD8E /* sml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D671D50D5E20066AD8E /* sml.min.js */; };
+		EC431E5B1D50D5E20066AD8E /* sqf.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D681D50D5E20066AD8E /* sqf.min.js */; };
+		EC431E5C1D50D5E20066AD8E /* sql.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D691D50D5E20066AD8E /* sql.min.js */; };
+		EC431E5D1D50D5E20066AD8E /* stan.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6A1D50D5E20066AD8E /* stan.min.js */; };
+		EC431E5E1D50D5E20066AD8E /* stata.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6B1D50D5E20066AD8E /* stata.min.js */; };
+		EC431E5F1D50D5E20066AD8E /* step21.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6C1D50D5E20066AD8E /* step21.min.js */; };
+		EC431E601D50D5E20066AD8E /* stylus.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6D1D50D5E20066AD8E /* stylus.min.js */; };
+		EC431E611D50D5E20066AD8E /* swift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6E1D50D5E20066AD8E /* swift.min.js */; };
+		EC431E621D50D5E20066AD8E /* taggerscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D6F1D50D5E20066AD8E /* taggerscript.min.js */; };
+		EC431E631D50D5E20066AD8E /* tap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D701D50D5E20066AD8E /* tap.min.js */; };
+		EC431E641D50D5E20066AD8E /* tcl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D711D50D5E20066AD8E /* tcl.min.js */; };
+		EC431E651D50D5E20066AD8E /* tex.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D721D50D5E20066AD8E /* tex.min.js */; };
+		EC431E661D50D5E20066AD8E /* thrift.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D731D50D5E20066AD8E /* thrift.min.js */; };
+		EC431E671D50D5E20066AD8E /* tp.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D741D50D5E20066AD8E /* tp.min.js */; };
+		EC431E681D50D5E20066AD8E /* twig.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D751D50D5E20066AD8E /* twig.min.js */; };
+		EC431E691D50D5E20066AD8E /* typescript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D761D50D5E20066AD8E /* typescript.min.js */; };
+		EC431E6A1D50D5E20066AD8E /* vala.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D771D50D5E20066AD8E /* vala.min.js */; };
+		EC431E6B1D50D5E20066AD8E /* vbnet.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D781D50D5E20066AD8E /* vbnet.min.js */; };
+		EC431E6C1D50D5E20066AD8E /* vbscript-html.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D791D50D5E20066AD8E /* vbscript-html.min.js */; };
+		EC431E6D1D50D5E20066AD8E /* vbscript.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7A1D50D5E20066AD8E /* vbscript.min.js */; };
+		EC431E6E1D50D5E20066AD8E /* verilog.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7B1D50D5E20066AD8E /* verilog.min.js */; };
+		EC431E6F1D50D5E20066AD8E /* vhdl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7C1D50D5E20066AD8E /* vhdl.min.js */; };
+		EC431E701D50D5E20066AD8E /* vim.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7D1D50D5E20066AD8E /* vim.min.js */; };
+		EC431E711D50D5E20066AD8E /* x86asm.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7E1D50D5E20066AD8E /* x86asm.min.js */; };
+		EC431E721D50D5E20066AD8E /* xl.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D7F1D50D5E20066AD8E /* xl.min.js */; };
+		EC431E731D50D5E20066AD8E /* xml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D801D50D5E20066AD8E /* xml.min.js */; };
+		EC431E741D50D5E20066AD8E /* xquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D811D50D5E20066AD8E /* xquery.min.js */; };
+		EC431E751D50D5E20066AD8E /* yaml.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D821D50D5E20066AD8E /* yaml.min.js */; };
+		EC431E761D50D5E20066AD8E /* zephir.min.js in Resources */ = {isa = PBXBuildFile; fileRef = EC431D831D50D5E20066AD8E /* zephir.min.js */; };
+		EC431E781D50D5E20066AD8E /* agate.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D861D50D5E20066AD8E /* agate.min.css */; };
+		EC431E791D50D5E20066AD8E /* androidstudio.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D871D50D5E20066AD8E /* androidstudio.min.css */; };
+		EC431E7A1D50D5E20066AD8E /* arduino-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D881D50D5E20066AD8E /* arduino-light.min.css */; };
+		EC431E7B1D50D5E20066AD8E /* arta.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D891D50D5E20066AD8E /* arta.min.css */; };
+		EC431E7C1D50D5E20066AD8E /* ascetic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8A1D50D5E20066AD8E /* ascetic.min.css */; };
+		EC431E7D1D50D5E20066AD8E /* atelier-cave-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8B1D50D5E20066AD8E /* atelier-cave-dark.min.css */; };
+		EC431E7E1D50D5E20066AD8E /* atelier-cave-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8C1D50D5E20066AD8E /* atelier-cave-light.min.css */; };
+		EC431E7F1D50D5E20066AD8E /* atelier-dune-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8D1D50D5E20066AD8E /* atelier-dune-dark.min.css */; };
+		EC431E801D50D5E20066AD8E /* atelier-dune-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8E1D50D5E20066AD8E /* atelier-dune-light.min.css */; };
+		EC431E811D50D5E20066AD8E /* atelier-estuary-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D8F1D50D5E20066AD8E /* atelier-estuary-dark.min.css */; };
+		EC431E821D50D5E20066AD8E /* atelier-estuary-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D901D50D5E20066AD8E /* atelier-estuary-light.min.css */; };
+		EC431E831D50D5E20066AD8E /* atelier-forest-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D911D50D5E20066AD8E /* atelier-forest-dark.min.css */; };
+		EC431E841D50D5E20066AD8E /* atelier-forest-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D921D50D5E20066AD8E /* atelier-forest-light.min.css */; };
+		EC431E851D50D5E20066AD8E /* atelier-heath-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D931D50D5E20066AD8E /* atelier-heath-dark.min.css */; };
+		EC431E861D50D5E20066AD8E /* atelier-heath-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D941D50D5E20066AD8E /* atelier-heath-light.min.css */; };
+		EC431E871D50D5E20066AD8E /* atelier-lakeside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D951D50D5E20066AD8E /* atelier-lakeside-dark.min.css */; };
+		EC431E881D50D5E20066AD8E /* atelier-lakeside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D961D50D5E20066AD8E /* atelier-lakeside-light.min.css */; };
+		EC431E891D50D5E20066AD8E /* atelier-plateau-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D971D50D5E20066AD8E /* atelier-plateau-dark.min.css */; };
+		EC431E8A1D50D5E20066AD8E /* atelier-plateau-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D981D50D5E20066AD8E /* atelier-plateau-light.min.css */; };
+		EC431E8B1D50D5E20066AD8E /* atelier-savanna-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D991D50D5E20066AD8E /* atelier-savanna-dark.min.css */; };
+		EC431E8C1D50D5E20066AD8E /* atelier-savanna-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9A1D50D5E20066AD8E /* atelier-savanna-light.min.css */; };
+		EC431E8D1D50D5E20066AD8E /* atelier-seaside-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9B1D50D5E20066AD8E /* atelier-seaside-dark.min.css */; };
+		EC431E8E1D50D5E20066AD8E /* atelier-seaside-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9C1D50D5E20066AD8E /* atelier-seaside-light.min.css */; };
+		EC431E8F1D50D5E20066AD8E /* atelier-sulphurpool-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9D1D50D5E20066AD8E /* atelier-sulphurpool-dark.min.css */; };
+		EC431E901D50D5E20066AD8E /* atelier-sulphurpool-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9E1D50D5E20066AD8E /* atelier-sulphurpool-light.min.css */; };
+		EC431E911D50D5E20066AD8E /* brown-paper.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431D9F1D50D5E20066AD8E /* brown-paper.min.css */; };
+		EC431E931D50D5E20066AD8E /* codepen-embed.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA11D50D5E20066AD8E /* codepen-embed.min.css */; };
+		EC431E941D50D5E20066AD8E /* color-brewer.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA21D50D5E20066AD8E /* color-brewer.min.css */; };
+		EC431E951D50D5E20066AD8E /* dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA31D50D5E20066AD8E /* dark.min.css */; };
+		EC431E961D50D5E20066AD8E /* darkula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA41D50D5E20066AD8E /* darkula.min.css */; };
+		EC431E971D50D5E20066AD8E /* default.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA51D50D5E20066AD8E /* default.min.css */; };
+		EC431E981D50D5E20066AD8E /* docco.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA61D50D5E20066AD8E /* docco.min.css */; };
+		EC431E991D50D5E20066AD8E /* dracula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA71D50D5E20066AD8E /* dracula.min.css */; };
+		EC431E9A1D50D5E20066AD8E /* far.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA81D50D5E20066AD8E /* far.min.css */; };
+		EC431E9B1D50D5E20066AD8E /* foundation.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DA91D50D5E20066AD8E /* foundation.min.css */; };
+		EC431E9C1D50D5E20066AD8E /* github-gist.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAA1D50D5E20066AD8E /* github-gist.min.css */; };
+		EC431E9D1D50D5E20066AD8E /* github.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAB1D50D5E20066AD8E /* github.min.css */; };
+		EC431E9E1D50D5E20066AD8E /* googlecode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAC1D50D5E20066AD8E /* googlecode.min.css */; };
+		EC431E9F1D50D5E20066AD8E /* grayscale.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAD1D50D5E20066AD8E /* grayscale.min.css */; };
+		EC431EA01D50D5E20066AD8E /* gruvbox-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAE1D50D5E20066AD8E /* gruvbox-dark.min.css */; };
+		EC431EA11D50D5E20066AD8E /* gruvbox-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DAF1D50D5E20066AD8E /* gruvbox-light.min.css */; };
+		EC431EA21D50D5E20066AD8E /* hopscotch.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB01D50D5E20066AD8E /* hopscotch.min.css */; };
+		EC431EA31D50D5E20066AD8E /* hybrid.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB11D50D5E20066AD8E /* hybrid.min.css */; };
+		EC431EA41D50D5E20066AD8E /* idea.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB21D50D5E20066AD8E /* idea.min.css */; };
+		EC431EA51D50D5E20066AD8E /* ir-black.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB31D50D5E20066AD8E /* ir-black.min.css */; };
+		EC431EA61D50D5E20066AD8E /* kimbie.dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB41D50D5E20066AD8E /* kimbie.dark.min.css */; };
+		EC431EA71D50D5E20066AD8E /* kimbie.light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB51D50D5E20066AD8E /* kimbie.light.min.css */; };
+		EC431EA81D50D5E20066AD8E /* magula.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB61D50D5E20066AD8E /* magula.min.css */; };
+		EC431EA91D50D5E20066AD8E /* mono-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB71D50D5E20066AD8E /* mono-blue.min.css */; };
+		EC431EAA1D50D5E20066AD8E /* monokai-sublime.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB81D50D5E20066AD8E /* monokai-sublime.min.css */; };
+		EC431EAB1D50D5E20066AD8E /* monokai.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DB91D50D5E20066AD8E /* monokai.min.css */; };
+		EC431EAC1D50D5E20066AD8E /* obsidian.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DBA1D50D5E20066AD8E /* obsidian.min.css */; };
+		EC431EAD1D50D5E20066AD8E /* ocean.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DBB1D50D5E20066AD8E /* ocean.min.css */; };
+		EC431EAE1D50D5E20066AD8E /* paraiso-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DBC1D50D5E20066AD8E /* paraiso-dark.min.css */; };
+		EC431EAF1D50D5E20066AD8E /* paraiso-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DBD1D50D5E20066AD8E /* paraiso-light.min.css */; };
+		EC431EB11D50D5E20066AD8E /* pojoaque.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DBF1D50D5E20066AD8E /* pojoaque.min.css */; };
+		EC431EB21D50D5E20066AD8E /* purebasic.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC01D50D5E20066AD8E /* purebasic.min.css */; };
+		EC431EB31D50D5E20066AD8E /* qtcreator_dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC11D50D5E20066AD8E /* qtcreator_dark.min.css */; };
+		EC431EB41D50D5E20066AD8E /* qtcreator_light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC21D50D5E20066AD8E /* qtcreator_light.min.css */; };
+		EC431EB51D50D5E20066AD8E /* railscasts.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC31D50D5E20066AD8E /* railscasts.min.css */; };
+		EC431EB61D50D5E20066AD8E /* rainbow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC41D50D5E20066AD8E /* rainbow.min.css */; };
+		EC431EB71D50D5E20066AD8E /* school-book.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC51D50D5E20066AD8E /* school-book.min.css */; };
+		EC431EB91D50D5E20066AD8E /* solarized-dark.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC71D50D5E20066AD8E /* solarized-dark.min.css */; };
+		EC431EBA1D50D5E20066AD8E /* solarized-light.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC81D50D5E20066AD8E /* solarized-light.min.css */; };
+		EC431EBB1D50D5E20066AD8E /* sunburst.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DC91D50D5E20066AD8E /* sunburst.min.css */; };
+		EC431EBC1D50D5E20066AD8E /* tomorrow-night-blue.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCA1D50D5E20066AD8E /* tomorrow-night-blue.min.css */; };
+		EC431EBD1D50D5E20066AD8E /* tomorrow-night-bright.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCB1D50D5E20066AD8E /* tomorrow-night-bright.min.css */; };
+		EC431EBE1D50D5E20066AD8E /* tomorrow-night-eighties.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCC1D50D5E20066AD8E /* tomorrow-night-eighties.min.css */; };
+		EC431EBF1D50D5E20066AD8E /* tomorrow-night.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCD1D50D5E20066AD8E /* tomorrow-night.min.css */; };
+		EC431EC01D50D5E20066AD8E /* tomorrow.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCE1D50D5E20066AD8E /* tomorrow.min.css */; };
+		EC431EC11D50D5E20066AD8E /* vs.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DCF1D50D5E20066AD8E /* vs.min.css */; };
+		EC431EC21D50D5E20066AD8E /* xcode.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DD01D50D5E20066AD8E /* xcode.min.css */; };
+		EC431EC31D50D5E20066AD8E /* xt256.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DD11D50D5E20066AD8E /* xt256.min.css */; };
+		EC431EC41D50D5E20066AD8E /* zenburn.min.css in Resources */ = {isa = PBXBuildFile; fileRef = EC431DD21D50D5E20066AD8E /* zenburn.min.css */; };
+		EC431EC91D50D60C0066AD8E /* CodeAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC431EC51D50D60C0066AD8E /* CodeAttributedString.swift */; };
+		EC431ECA1D50D60C0066AD8E /* Highlightr.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC431EC61D50D60C0066AD8E /* Highlightr.swift */; };
+		EC431ECB1D50D60C0066AD8E /* HTMLUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC431EC71D50D60C0066AD8E /* HTMLUtils.swift */; };
+		EC431ECC1D50D60C0066AD8E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC431EC81D50D60C0066AD8E /* Theme.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC431CD21D50D5A10066AD8E /* Highlightr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Highlightr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC431CD51D50D5A10066AD8E /* Highlightr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Highlightr.h; sourceTree = "<group>"; };
+		EC431CD71D50D5A10066AD8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC431CE01D50D5E10066AD8E /* highlight.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highlight.min.js; sourceTree = "<group>"; };
+		EC431CE21D50D5E10066AD8E /* 1c.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = 1c.min.js; sourceTree = "<group>"; };
+		EC431CE31D50D5E10066AD8E /* accesslog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = accesslog.min.js; sourceTree = "<group>"; };
+		EC431CE41D50D5E10066AD8E /* actionscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = actionscript.min.js; sourceTree = "<group>"; };
+		EC431CE51D50D5E10066AD8E /* ada.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ada.min.js; sourceTree = "<group>"; };
+		EC431CE61D50D5E10066AD8E /* apache.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = apache.min.js; sourceTree = "<group>"; };
+		EC431CE71D50D5E10066AD8E /* applescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = applescript.min.js; sourceTree = "<group>"; };
+		EC431CE81D50D5E10066AD8E /* arduino.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = arduino.min.js; sourceTree = "<group>"; };
+		EC431CE91D50D5E10066AD8E /* armasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = armasm.min.js; sourceTree = "<group>"; };
+		EC431CEA1D50D5E10066AD8E /* asciidoc.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = asciidoc.min.js; sourceTree = "<group>"; };
+		EC431CEB1D50D5E10066AD8E /* aspectj.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = aspectj.min.js; sourceTree = "<group>"; };
+		EC431CEC1D50D5E10066AD8E /* autohotkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autohotkey.min.js; sourceTree = "<group>"; };
+		EC431CED1D50D5E10066AD8E /* autoit.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = autoit.min.js; sourceTree = "<group>"; };
+		EC431CEE1D50D5E10066AD8E /* avrasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = avrasm.min.js; sourceTree = "<group>"; };
+		EC431CEF1D50D5E10066AD8E /* axapta.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = axapta.min.js; sourceTree = "<group>"; };
+		EC431CF01D50D5E10066AD8E /* bash.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bash.min.js; sourceTree = "<group>"; };
+		EC431CF11D50D5E10066AD8E /* basic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = basic.min.js; sourceTree = "<group>"; };
+		EC431CF21D50D5E10066AD8E /* bnf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bnf.min.js; sourceTree = "<group>"; };
+		EC431CF31D50D5E10066AD8E /* brainfuck.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = brainfuck.min.js; sourceTree = "<group>"; };
+		EC431CF41D50D5E10066AD8E /* cal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cal.min.js; sourceTree = "<group>"; };
+		EC431CF51D50D5E10066AD8E /* capnproto.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = capnproto.min.js; sourceTree = "<group>"; };
+		EC431CF61D50D5E10066AD8E /* ceylon.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ceylon.min.js; sourceTree = "<group>"; };
+		EC431CF71D50D5E10066AD8E /* clojure-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "clojure-repl.min.js"; sourceTree = "<group>"; };
+		EC431CF81D50D5E10066AD8E /* clojure.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = clojure.min.js; sourceTree = "<group>"; };
+		EC431CF91D50D5E10066AD8E /* cmake.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cmake.min.js; sourceTree = "<group>"; };
+		EC431CFA1D50D5E10066AD8E /* coffeescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coffeescript.min.js; sourceTree = "<group>"; };
+		EC431CFB1D50D5E10066AD8E /* coq.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = coq.min.js; sourceTree = "<group>"; };
+		EC431CFC1D50D5E10066AD8E /* cos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cos.min.js; sourceTree = "<group>"; };
+		EC431CFD1D50D5E10066AD8E /* cpp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cpp.min.js; sourceTree = "<group>"; };
+		EC431CFE1D50D5E10066AD8E /* crmsh.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crmsh.min.js; sourceTree = "<group>"; };
+		EC431CFF1D50D5E10066AD8E /* crystal.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = crystal.min.js; sourceTree = "<group>"; };
+		EC431D001D50D5E10066AD8E /* cs.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = cs.min.js; sourceTree = "<group>"; };
+		EC431D011D50D5E10066AD8E /* csp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = csp.min.js; sourceTree = "<group>"; };
+		EC431D021D50D5E10066AD8E /* css.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = css.min.js; sourceTree = "<group>"; };
+		EC431D031D50D5E10066AD8E /* d.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = d.min.js; sourceTree = "<group>"; };
+		EC431D041D50D5E10066AD8E /* dart.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dart.min.js; sourceTree = "<group>"; };
+		EC431D051D50D5E10066AD8E /* delphi.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = delphi.min.js; sourceTree = "<group>"; };
+		EC431D061D50D5E10066AD8E /* diff.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = diff.min.js; sourceTree = "<group>"; };
+		EC431D071D50D5E10066AD8E /* django.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = django.min.js; sourceTree = "<group>"; };
+		EC431D081D50D5E10066AD8E /* dns.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dns.min.js; sourceTree = "<group>"; };
+		EC431D091D50D5E10066AD8E /* dockerfile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dockerfile.min.js; sourceTree = "<group>"; };
+		EC431D0A1D50D5E10066AD8E /* dos.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dos.min.js; sourceTree = "<group>"; };
+		EC431D0B1D50D5E10066AD8E /* dsconfig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dsconfig.min.js; sourceTree = "<group>"; };
+		EC431D0C1D50D5E10066AD8E /* dts.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dts.min.js; sourceTree = "<group>"; };
+		EC431D0D1D50D5E10066AD8E /* dust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dust.min.js; sourceTree = "<group>"; };
+		EC431D0E1D50D5E10066AD8E /* elixir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elixir.min.js; sourceTree = "<group>"; };
+		EC431D0F1D50D5E10066AD8E /* elm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = elm.min.js; sourceTree = "<group>"; };
+		EC431D101D50D5E10066AD8E /* erb.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erb.min.js; sourceTree = "<group>"; };
+		EC431D111D50D5E10066AD8E /* erlang-repl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "erlang-repl.min.js"; sourceTree = "<group>"; };
+		EC431D121D50D5E10066AD8E /* erlang.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = erlang.min.js; sourceTree = "<group>"; };
+		EC431D131D50D5E10066AD8E /* excel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = excel.min.js; sourceTree = "<group>"; };
+		EC431D141D50D5E10066AD8E /* fix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fix.min.js; sourceTree = "<group>"; };
+		EC431D151D50D5E10066AD8E /* fortran.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fortran.min.js; sourceTree = "<group>"; };
+		EC431D161D50D5E10066AD8E /* fsharp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = fsharp.min.js; sourceTree = "<group>"; };
+		EC431D171D50D5E10066AD8E /* gams.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gams.min.js; sourceTree = "<group>"; };
+		EC431D181D50D5E10066AD8E /* gauss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gauss.min.js; sourceTree = "<group>"; };
+		EC431D191D50D5E10066AD8E /* gcode.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gcode.min.js; sourceTree = "<group>"; };
+		EC431D1A1D50D5E10066AD8E /* gherkin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gherkin.min.js; sourceTree = "<group>"; };
+		EC431D1B1D50D5E10066AD8E /* glsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = glsl.min.js; sourceTree = "<group>"; };
+		EC431D1C1D50D5E10066AD8E /* go.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = go.min.js; sourceTree = "<group>"; };
+		EC431D1D1D50D5E10066AD8E /* golo.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = golo.min.js; sourceTree = "<group>"; };
+		EC431D1E1D50D5E10066AD8E /* gradle.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gradle.min.js; sourceTree = "<group>"; };
+		EC431D1F1D50D5E10066AD8E /* groovy.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = groovy.min.js; sourceTree = "<group>"; };
+		EC431D201D50D5E10066AD8E /* haml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haml.min.js; sourceTree = "<group>"; };
+		EC431D211D50D5E10066AD8E /* handlebars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = handlebars.min.js; sourceTree = "<group>"; };
+		EC431D221D50D5E10066AD8E /* haskell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haskell.min.js; sourceTree = "<group>"; };
+		EC431D231D50D5E10066AD8E /* haxe.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = haxe.min.js; sourceTree = "<group>"; };
+		EC431D241D50D5E10066AD8E /* hsp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = hsp.min.js; sourceTree = "<group>"; };
+		EC431D251D50D5E10066AD8E /* htmlbars.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = htmlbars.min.js; sourceTree = "<group>"; };
+		EC431D261D50D5E10066AD8E /* http.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = http.min.js; sourceTree = "<group>"; };
+		EC431D271D50D5E10066AD8E /* inform7.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = inform7.min.js; sourceTree = "<group>"; };
+		EC431D281D50D5E10066AD8E /* ini.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ini.min.js; sourceTree = "<group>"; };
+		EC431D291D50D5E10066AD8E /* irpf90.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = irpf90.min.js; sourceTree = "<group>"; };
+		EC431D2A1D50D5E10066AD8E /* java.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = java.min.js; sourceTree = "<group>"; };
+		EC431D2B1D50D5E10066AD8E /* javascript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascript.min.js; sourceTree = "<group>"; };
+		EC431D2C1D50D5E10066AD8E /* json.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = json.min.js; sourceTree = "<group>"; };
+		EC431D2D1D50D5E10066AD8E /* julia.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = julia.min.js; sourceTree = "<group>"; };
+		EC431D2E1D50D5E10066AD8E /* kotlin.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = kotlin.min.js; sourceTree = "<group>"; };
+		EC431D2F1D50D5E10066AD8E /* lasso.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lasso.min.js; sourceTree = "<group>"; };
+		EC431D301D50D5E10066AD8E /* ldif.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ldif.min.js; sourceTree = "<group>"; };
+		EC431D311D50D5E10066AD8E /* less.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = less.min.js; sourceTree = "<group>"; };
+		EC431D321D50D5E10066AD8E /* lisp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lisp.min.js; sourceTree = "<group>"; };
+		EC431D331D50D5E10066AD8E /* livecodeserver.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livecodeserver.min.js; sourceTree = "<group>"; };
+		EC431D341D50D5E10066AD8E /* livescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = livescript.min.js; sourceTree = "<group>"; };
+		EC431D351D50D5E10066AD8E /* lsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lsl.min.js; sourceTree = "<group>"; };
+		EC431D361D50D5E10066AD8E /* lua.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = lua.min.js; sourceTree = "<group>"; };
+		EC431D371D50D5E10066AD8E /* makefile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = makefile.min.js; sourceTree = "<group>"; };
+		EC431D381D50D5E10066AD8E /* markdown.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = markdown.min.js; sourceTree = "<group>"; };
+		EC431D391D50D5E10066AD8E /* mathematica.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mathematica.min.js; sourceTree = "<group>"; };
+		EC431D3A1D50D5E10066AD8E /* matlab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = matlab.min.js; sourceTree = "<group>"; };
+		EC431D3B1D50D5E10066AD8E /* maxima.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = maxima.min.js; sourceTree = "<group>"; };
+		EC431D3C1D50D5E10066AD8E /* mel.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mel.min.js; sourceTree = "<group>"; };
+		EC431D3D1D50D5E10066AD8E /* mercury.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mercury.min.js; sourceTree = "<group>"; };
+		EC431D3E1D50D5E10066AD8E /* mipsasm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mipsasm.min.js; sourceTree = "<group>"; };
+		EC431D3F1D50D5E10066AD8E /* mizar.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mizar.min.js; sourceTree = "<group>"; };
+		EC431D401D50D5E10066AD8E /* mojolicious.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mojolicious.min.js; sourceTree = "<group>"; };
+		EC431D411D50D5E10066AD8E /* monkey.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = monkey.min.js; sourceTree = "<group>"; };
+		EC431D421D50D5E10066AD8E /* moonscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = moonscript.min.js; sourceTree = "<group>"; };
+		EC431D431D50D5E10066AD8E /* nginx.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nginx.min.js; sourceTree = "<group>"; };
+		EC431D441D50D5E10066AD8E /* nimrod.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nimrod.min.js; sourceTree = "<group>"; };
+		EC431D451D50D5E10066AD8E /* nix.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nix.min.js; sourceTree = "<group>"; };
+		EC431D461D50D5E10066AD8E /* nsis.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = nsis.min.js; sourceTree = "<group>"; };
+		EC431D471D50D5E10066AD8E /* objectivec.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = objectivec.min.js; sourceTree = "<group>"; };
+		EC431D481D50D5E10066AD8E /* ocaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ocaml.min.js; sourceTree = "<group>"; };
+		EC431D491D50D5E10066AD8E /* openscad.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = openscad.min.js; sourceTree = "<group>"; };
+		EC431D4A1D50D5E10066AD8E /* oxygene.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = oxygene.min.js; sourceTree = "<group>"; };
+		EC431D4B1D50D5E10066AD8E /* parser3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = parser3.min.js; sourceTree = "<group>"; };
+		EC431D4C1D50D5E10066AD8E /* perl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = perl.min.js; sourceTree = "<group>"; };
+		EC431D4D1D50D5E10066AD8E /* pf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pf.min.js; sourceTree = "<group>"; };
+		EC431D4E1D50D5E10066AD8E /* php.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = php.min.js; sourceTree = "<group>"; };
+		EC431D4F1D50D5E10066AD8E /* pony.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = pony.min.js; sourceTree = "<group>"; };
+		EC431D501D50D5E10066AD8E /* powershell.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = powershell.min.js; sourceTree = "<group>"; };
+		EC431D511D50D5E10066AD8E /* processing.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = processing.min.js; sourceTree = "<group>"; };
+		EC431D521D50D5E10066AD8E /* profile.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = profile.min.js; sourceTree = "<group>"; };
+		EC431D531D50D5E10066AD8E /* prolog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = prolog.min.js; sourceTree = "<group>"; };
+		EC431D541D50D5E10066AD8E /* protobuf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = protobuf.min.js; sourceTree = "<group>"; };
+		EC431D551D50D5E10066AD8E /* puppet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = puppet.min.js; sourceTree = "<group>"; };
+		EC431D561D50D5E10066AD8E /* purebasic.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = purebasic.min.js; sourceTree = "<group>"; };
+		EC431D571D50D5E10066AD8E /* python.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = python.min.js; sourceTree = "<group>"; };
+		EC431D581D50D5E10066AD8E /* q.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = q.min.js; sourceTree = "<group>"; };
+		EC431D591D50D5E10066AD8E /* qml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = qml.min.js; sourceTree = "<group>"; };
+		EC431D5A1D50D5E10066AD8E /* r.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = r.min.js; sourceTree = "<group>"; };
+		EC431D5B1D50D5E10066AD8E /* rib.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rib.min.js; sourceTree = "<group>"; };
+		EC431D5C1D50D5E10066AD8E /* roboconf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = roboconf.min.js; sourceTree = "<group>"; };
+		EC431D5D1D50D5E10066AD8E /* rsl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rsl.min.js; sourceTree = "<group>"; };
+		EC431D5E1D50D5E20066AD8E /* ruby.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruby.min.js; sourceTree = "<group>"; };
+		EC431D5F1D50D5E20066AD8E /* ruleslanguage.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ruleslanguage.min.js; sourceTree = "<group>"; };
+		EC431D601D50D5E20066AD8E /* rust.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rust.min.js; sourceTree = "<group>"; };
+		EC431D611D50D5E20066AD8E /* scala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scala.min.js; sourceTree = "<group>"; };
+		EC431D621D50D5E20066AD8E /* scheme.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scheme.min.js; sourceTree = "<group>"; };
+		EC431D631D50D5E20066AD8E /* scilab.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scilab.min.js; sourceTree = "<group>"; };
+		EC431D641D50D5E20066AD8E /* scss.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = scss.min.js; sourceTree = "<group>"; };
+		EC431D651D50D5E20066AD8E /* smali.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smali.min.js; sourceTree = "<group>"; };
+		EC431D661D50D5E20066AD8E /* smalltalk.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = smalltalk.min.js; sourceTree = "<group>"; };
+		EC431D671D50D5E20066AD8E /* sml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sml.min.js; sourceTree = "<group>"; };
+		EC431D681D50D5E20066AD8E /* sqf.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sqf.min.js; sourceTree = "<group>"; };
+		EC431D691D50D5E20066AD8E /* sql.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sql.min.js; sourceTree = "<group>"; };
+		EC431D6A1D50D5E20066AD8E /* stan.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stan.min.js; sourceTree = "<group>"; };
+		EC431D6B1D50D5E20066AD8E /* stata.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stata.min.js; sourceTree = "<group>"; };
+		EC431D6C1D50D5E20066AD8E /* step21.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = step21.min.js; sourceTree = "<group>"; };
+		EC431D6D1D50D5E20066AD8E /* stylus.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = stylus.min.js; sourceTree = "<group>"; };
+		EC431D6E1D50D5E20066AD8E /* swift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = swift.min.js; sourceTree = "<group>"; };
+		EC431D6F1D50D5E20066AD8E /* taggerscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = taggerscript.min.js; sourceTree = "<group>"; };
+		EC431D701D50D5E20066AD8E /* tap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tap.min.js; sourceTree = "<group>"; };
+		EC431D711D50D5E20066AD8E /* tcl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tcl.min.js; sourceTree = "<group>"; };
+		EC431D721D50D5E20066AD8E /* tex.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tex.min.js; sourceTree = "<group>"; };
+		EC431D731D50D5E20066AD8E /* thrift.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = thrift.min.js; sourceTree = "<group>"; };
+		EC431D741D50D5E20066AD8E /* tp.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tp.min.js; sourceTree = "<group>"; };
+		EC431D751D50D5E20066AD8E /* twig.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = twig.min.js; sourceTree = "<group>"; };
+		EC431D761D50D5E20066AD8E /* typescript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = typescript.min.js; sourceTree = "<group>"; };
+		EC431D771D50D5E20066AD8E /* vala.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vala.min.js; sourceTree = "<group>"; };
+		EC431D781D50D5E20066AD8E /* vbnet.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbnet.min.js; sourceTree = "<group>"; };
+		EC431D791D50D5E20066AD8E /* vbscript-html.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "vbscript-html.min.js"; sourceTree = "<group>"; };
+		EC431D7A1D50D5E20066AD8E /* vbscript.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vbscript.min.js; sourceTree = "<group>"; };
+		EC431D7B1D50D5E20066AD8E /* verilog.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = verilog.min.js; sourceTree = "<group>"; };
+		EC431D7C1D50D5E20066AD8E /* vhdl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vhdl.min.js; sourceTree = "<group>"; };
+		EC431D7D1D50D5E20066AD8E /* vim.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = vim.min.js; sourceTree = "<group>"; };
+		EC431D7E1D50D5E20066AD8E /* x86asm.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = x86asm.min.js; sourceTree = "<group>"; };
+		EC431D7F1D50D5E20066AD8E /* xl.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xl.min.js; sourceTree = "<group>"; };
+		EC431D801D50D5E20066AD8E /* xml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xml.min.js; sourceTree = "<group>"; };
+		EC431D811D50D5E20066AD8E /* xquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = xquery.min.js; sourceTree = "<group>"; };
+		EC431D821D50D5E20066AD8E /* yaml.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = yaml.min.js; sourceTree = "<group>"; };
+		EC431D831D50D5E20066AD8E /* zephir.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = zephir.min.js; sourceTree = "<group>"; };
+		EC431D861D50D5E20066AD8E /* agate.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = agate.min.css; sourceTree = "<group>"; };
+		EC431D871D50D5E20066AD8E /* androidstudio.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = androidstudio.min.css; sourceTree = "<group>"; };
+		EC431D881D50D5E20066AD8E /* arduino-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "arduino-light.min.css"; sourceTree = "<group>"; };
+		EC431D891D50D5E20066AD8E /* arta.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = arta.min.css; sourceTree = "<group>"; };
+		EC431D8A1D50D5E20066AD8E /* ascetic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ascetic.min.css; sourceTree = "<group>"; };
+		EC431D8B1D50D5E20066AD8E /* atelier-cave-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-dark.min.css"; sourceTree = "<group>"; };
+		EC431D8C1D50D5E20066AD8E /* atelier-cave-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-cave-light.min.css"; sourceTree = "<group>"; };
+		EC431D8D1D50D5E20066AD8E /* atelier-dune-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-dark.min.css"; sourceTree = "<group>"; };
+		EC431D8E1D50D5E20066AD8E /* atelier-dune-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-dune-light.min.css"; sourceTree = "<group>"; };
+		EC431D8F1D50D5E20066AD8E /* atelier-estuary-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-dark.min.css"; sourceTree = "<group>"; };
+		EC431D901D50D5E20066AD8E /* atelier-estuary-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-estuary-light.min.css"; sourceTree = "<group>"; };
+		EC431D911D50D5E20066AD8E /* atelier-forest-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-dark.min.css"; sourceTree = "<group>"; };
+		EC431D921D50D5E20066AD8E /* atelier-forest-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-forest-light.min.css"; sourceTree = "<group>"; };
+		EC431D931D50D5E20066AD8E /* atelier-heath-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-dark.min.css"; sourceTree = "<group>"; };
+		EC431D941D50D5E20066AD8E /* atelier-heath-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-heath-light.min.css"; sourceTree = "<group>"; };
+		EC431D951D50D5E20066AD8E /* atelier-lakeside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-dark.min.css"; sourceTree = "<group>"; };
+		EC431D961D50D5E20066AD8E /* atelier-lakeside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-lakeside-light.min.css"; sourceTree = "<group>"; };
+		EC431D971D50D5E20066AD8E /* atelier-plateau-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-dark.min.css"; sourceTree = "<group>"; };
+		EC431D981D50D5E20066AD8E /* atelier-plateau-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-plateau-light.min.css"; sourceTree = "<group>"; };
+		EC431D991D50D5E20066AD8E /* atelier-savanna-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-dark.min.css"; sourceTree = "<group>"; };
+		EC431D9A1D50D5E20066AD8E /* atelier-savanna-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-savanna-light.min.css"; sourceTree = "<group>"; };
+		EC431D9B1D50D5E20066AD8E /* atelier-seaside-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-dark.min.css"; sourceTree = "<group>"; };
+		EC431D9C1D50D5E20066AD8E /* atelier-seaside-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-seaside-light.min.css"; sourceTree = "<group>"; };
+		EC431D9D1D50D5E20066AD8E /* atelier-sulphurpool-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-dark.min.css"; sourceTree = "<group>"; };
+		EC431D9E1D50D5E20066AD8E /* atelier-sulphurpool-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "atelier-sulphurpool-light.min.css"; sourceTree = "<group>"; };
+		EC431D9F1D50D5E20066AD8E /* brown-paper.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "brown-paper.min.css"; sourceTree = "<group>"; };
+		EC431DA11D50D5E20066AD8E /* codepen-embed.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "codepen-embed.min.css"; sourceTree = "<group>"; };
+		EC431DA21D50D5E20066AD8E /* color-brewer.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "color-brewer.min.css"; sourceTree = "<group>"; };
+		EC431DA31D50D5E20066AD8E /* dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dark.min.css; sourceTree = "<group>"; };
+		EC431DA41D50D5E20066AD8E /* darkula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = darkula.min.css; sourceTree = "<group>"; };
+		EC431DA51D50D5E20066AD8E /* default.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = default.min.css; sourceTree = "<group>"; };
+		EC431DA61D50D5E20066AD8E /* docco.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = docco.min.css; sourceTree = "<group>"; };
+		EC431DA71D50D5E20066AD8E /* dracula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = dracula.min.css; sourceTree = "<group>"; };
+		EC431DA81D50D5E20066AD8E /* far.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = far.min.css; sourceTree = "<group>"; };
+		EC431DA91D50D5E20066AD8E /* foundation.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = foundation.min.css; sourceTree = "<group>"; };
+		EC431DAA1D50D5E20066AD8E /* github-gist.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "github-gist.min.css"; sourceTree = "<group>"; };
+		EC431DAB1D50D5E20066AD8E /* github.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = github.min.css; sourceTree = "<group>"; };
+		EC431DAC1D50D5E20066AD8E /* googlecode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = googlecode.min.css; sourceTree = "<group>"; };
+		EC431DAD1D50D5E20066AD8E /* grayscale.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = grayscale.min.css; sourceTree = "<group>"; };
+		EC431DAE1D50D5E20066AD8E /* gruvbox-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-dark.min.css"; sourceTree = "<group>"; };
+		EC431DAF1D50D5E20066AD8E /* gruvbox-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "gruvbox-light.min.css"; sourceTree = "<group>"; };
+		EC431DB01D50D5E20066AD8E /* hopscotch.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hopscotch.min.css; sourceTree = "<group>"; };
+		EC431DB11D50D5E20066AD8E /* hybrid.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = hybrid.min.css; sourceTree = "<group>"; };
+		EC431DB21D50D5E20066AD8E /* idea.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = idea.min.css; sourceTree = "<group>"; };
+		EC431DB31D50D5E20066AD8E /* ir-black.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "ir-black.min.css"; sourceTree = "<group>"; };
+		EC431DB41D50D5E20066AD8E /* kimbie.dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.dark.min.css; sourceTree = "<group>"; };
+		EC431DB51D50D5E20066AD8E /* kimbie.light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = kimbie.light.min.css; sourceTree = "<group>"; };
+		EC431DB61D50D5E20066AD8E /* magula.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = magula.min.css; sourceTree = "<group>"; };
+		EC431DB71D50D5E20066AD8E /* mono-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "mono-blue.min.css"; sourceTree = "<group>"; };
+		EC431DB81D50D5E20066AD8E /* monokai-sublime.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "monokai-sublime.min.css"; sourceTree = "<group>"; };
+		EC431DB91D50D5E20066AD8E /* monokai.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = monokai.min.css; sourceTree = "<group>"; };
+		EC431DBA1D50D5E20066AD8E /* obsidian.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = obsidian.min.css; sourceTree = "<group>"; };
+		EC431DBB1D50D5E20066AD8E /* ocean.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = ocean.min.css; sourceTree = "<group>"; };
+		EC431DBC1D50D5E20066AD8E /* paraiso-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-dark.min.css"; sourceTree = "<group>"; };
+		EC431DBD1D50D5E20066AD8E /* paraiso-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "paraiso-light.min.css"; sourceTree = "<group>"; };
+		EC431DBF1D50D5E20066AD8E /* pojoaque.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = pojoaque.min.css; sourceTree = "<group>"; };
+		EC431DC01D50D5E20066AD8E /* purebasic.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = purebasic.min.css; sourceTree = "<group>"; };
+		EC431DC11D50D5E20066AD8E /* qtcreator_dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_dark.min.css; sourceTree = "<group>"; };
+		EC431DC21D50D5E20066AD8E /* qtcreator_light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = qtcreator_light.min.css; sourceTree = "<group>"; };
+		EC431DC31D50D5E20066AD8E /* railscasts.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = railscasts.min.css; sourceTree = "<group>"; };
+		EC431DC41D50D5E20066AD8E /* rainbow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rainbow.min.css; sourceTree = "<group>"; };
+		EC431DC51D50D5E20066AD8E /* school-book.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "school-book.min.css"; sourceTree = "<group>"; };
+		EC431DC71D50D5E20066AD8E /* solarized-dark.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-dark.min.css"; sourceTree = "<group>"; };
+		EC431DC81D50D5E20066AD8E /* solarized-light.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "solarized-light.min.css"; sourceTree = "<group>"; };
+		EC431DC91D50D5E20066AD8E /* sunburst.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = sunburst.min.css; sourceTree = "<group>"; };
+		EC431DCA1D50D5E20066AD8E /* tomorrow-night-blue.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-blue.min.css"; sourceTree = "<group>"; };
+		EC431DCB1D50D5E20066AD8E /* tomorrow-night-bright.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-bright.min.css"; sourceTree = "<group>"; };
+		EC431DCC1D50D5E20066AD8E /* tomorrow-night-eighties.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night-eighties.min.css"; sourceTree = "<group>"; };
+		EC431DCD1D50D5E20066AD8E /* tomorrow-night.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "tomorrow-night.min.css"; sourceTree = "<group>"; };
+		EC431DCE1D50D5E20066AD8E /* tomorrow.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = tomorrow.min.css; sourceTree = "<group>"; };
+		EC431DCF1D50D5E20066AD8E /* vs.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = vs.min.css; sourceTree = "<group>"; };
+		EC431DD01D50D5E20066AD8E /* xcode.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xcode.min.css; sourceTree = "<group>"; };
+		EC431DD11D50D5E20066AD8E /* xt256.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = xt256.min.css; sourceTree = "<group>"; };
+		EC431DD21D50D5E20066AD8E /* zenburn.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = zenburn.min.css; sourceTree = "<group>"; };
+		EC431EC51D50D60C0066AD8E /* CodeAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeAttributedString.swift; path = Source/Classes/CodeAttributedString.swift; sourceTree = "<group>"; };
+		EC431EC61D50D60C0066AD8E /* Highlightr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Highlightr.swift; path = Source/Classes/Highlightr.swift; sourceTree = "<group>"; };
+		EC431EC71D50D60C0066AD8E /* HTMLUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HTMLUtils.swift; path = Source/Classes/HTMLUtils.swift; sourceTree = "<group>"; };
+		EC431EC81D50D60C0066AD8E /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = Source/Classes/Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC431CCE1D50D5A10066AD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC431CC81D50D5A10066AD8E = {
+			isa = PBXGroup;
+			children = (
+				EC431CD41D50D5A10066AD8E /* Highlightr */,
+				EC431CD31D50D5A10066AD8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC431CD31D50D5A10066AD8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC431CD21D50D5A10066AD8E /* Highlightr.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC431CD41D50D5A10066AD8E /* Highlightr */ = {
+			isa = PBXGroup;
+			children = (
+				EC431CD51D50D5A10066AD8E /* Highlightr.h */,
+				EC431EC51D50D60C0066AD8E /* CodeAttributedString.swift */,
+				EC431EC61D50D60C0066AD8E /* Highlightr.swift */,
+				EC431EC71D50D60C0066AD8E /* HTMLUtils.swift */,
+				EC431EC81D50D60C0066AD8E /* Theme.swift */,
+				EC431CDD1D50D5E10066AD8E /* Assets */,
+				EC431CD71D50D5A10066AD8E /* Info.plist */,
+			);
+			path = Highlightr;
+			sourceTree = "<group>";
+		};
+		EC431CDD1D50D5E10066AD8E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC431CDF1D50D5E10066AD8E /* Highlighter */,
+				EC431D851D50D5E20066AD8E /* styles */,
+			);
+			name = Assets;
+			path = Source/Assets;
+			sourceTree = "<group>";
+		};
+		EC431CDF1D50D5E10066AD8E /* Highlighter */ = {
+			isa = PBXGroup;
+			children = (
+				EC431CE01D50D5E10066AD8E /* highlight.min.js */,
+				EC431CE11D50D5E10066AD8E /* languages */,
+			);
+			path = Highlighter;
+			sourceTree = "<group>";
+		};
+		EC431CE11D50D5E10066AD8E /* languages */ = {
+			isa = PBXGroup;
+			children = (
+				EC431CE21D50D5E10066AD8E /* 1c.min.js */,
+				EC431CE31D50D5E10066AD8E /* accesslog.min.js */,
+				EC431CE41D50D5E10066AD8E /* actionscript.min.js */,
+				EC431CE51D50D5E10066AD8E /* ada.min.js */,
+				EC431CE61D50D5E10066AD8E /* apache.min.js */,
+				EC431CE71D50D5E10066AD8E /* applescript.min.js */,
+				EC431CE81D50D5E10066AD8E /* arduino.min.js */,
+				EC431CE91D50D5E10066AD8E /* armasm.min.js */,
+				EC431CEA1D50D5E10066AD8E /* asciidoc.min.js */,
+				EC431CEB1D50D5E10066AD8E /* aspectj.min.js */,
+				EC431CEC1D50D5E10066AD8E /* autohotkey.min.js */,
+				EC431CED1D50D5E10066AD8E /* autoit.min.js */,
+				EC431CEE1D50D5E10066AD8E /* avrasm.min.js */,
+				EC431CEF1D50D5E10066AD8E /* axapta.min.js */,
+				EC431CF01D50D5E10066AD8E /* bash.min.js */,
+				EC431CF11D50D5E10066AD8E /* basic.min.js */,
+				EC431CF21D50D5E10066AD8E /* bnf.min.js */,
+				EC431CF31D50D5E10066AD8E /* brainfuck.min.js */,
+				EC431CF41D50D5E10066AD8E /* cal.min.js */,
+				EC431CF51D50D5E10066AD8E /* capnproto.min.js */,
+				EC431CF61D50D5E10066AD8E /* ceylon.min.js */,
+				EC431CF71D50D5E10066AD8E /* clojure-repl.min.js */,
+				EC431CF81D50D5E10066AD8E /* clojure.min.js */,
+				EC431CF91D50D5E10066AD8E /* cmake.min.js */,
+				EC431CFA1D50D5E10066AD8E /* coffeescript.min.js */,
+				EC431CFB1D50D5E10066AD8E /* coq.min.js */,
+				EC431CFC1D50D5E10066AD8E /* cos.min.js */,
+				EC431CFD1D50D5E10066AD8E /* cpp.min.js */,
+				EC431CFE1D50D5E10066AD8E /* crmsh.min.js */,
+				EC431CFF1D50D5E10066AD8E /* crystal.min.js */,
+				EC431D001D50D5E10066AD8E /* cs.min.js */,
+				EC431D011D50D5E10066AD8E /* csp.min.js */,
+				EC431D021D50D5E10066AD8E /* css.min.js */,
+				EC431D031D50D5E10066AD8E /* d.min.js */,
+				EC431D041D50D5E10066AD8E /* dart.min.js */,
+				EC431D051D50D5E10066AD8E /* delphi.min.js */,
+				EC431D061D50D5E10066AD8E /* diff.min.js */,
+				EC431D071D50D5E10066AD8E /* django.min.js */,
+				EC431D081D50D5E10066AD8E /* dns.min.js */,
+				EC431D091D50D5E10066AD8E /* dockerfile.min.js */,
+				EC431D0A1D50D5E10066AD8E /* dos.min.js */,
+				EC431D0B1D50D5E10066AD8E /* dsconfig.min.js */,
+				EC431D0C1D50D5E10066AD8E /* dts.min.js */,
+				EC431D0D1D50D5E10066AD8E /* dust.min.js */,
+				EC431D0E1D50D5E10066AD8E /* elixir.min.js */,
+				EC431D0F1D50D5E10066AD8E /* elm.min.js */,
+				EC431D101D50D5E10066AD8E /* erb.min.js */,
+				EC431D111D50D5E10066AD8E /* erlang-repl.min.js */,
+				EC431D121D50D5E10066AD8E /* erlang.min.js */,
+				EC431D131D50D5E10066AD8E /* excel.min.js */,
+				EC431D141D50D5E10066AD8E /* fix.min.js */,
+				EC431D151D50D5E10066AD8E /* fortran.min.js */,
+				EC431D161D50D5E10066AD8E /* fsharp.min.js */,
+				EC431D171D50D5E10066AD8E /* gams.min.js */,
+				EC431D181D50D5E10066AD8E /* gauss.min.js */,
+				EC431D191D50D5E10066AD8E /* gcode.min.js */,
+				EC431D1A1D50D5E10066AD8E /* gherkin.min.js */,
+				EC431D1B1D50D5E10066AD8E /* glsl.min.js */,
+				EC431D1C1D50D5E10066AD8E /* go.min.js */,
+				EC431D1D1D50D5E10066AD8E /* golo.min.js */,
+				EC431D1E1D50D5E10066AD8E /* gradle.min.js */,
+				EC431D1F1D50D5E10066AD8E /* groovy.min.js */,
+				EC431D201D50D5E10066AD8E /* haml.min.js */,
+				EC431D211D50D5E10066AD8E /* handlebars.min.js */,
+				EC431D221D50D5E10066AD8E /* haskell.min.js */,
+				EC431D231D50D5E10066AD8E /* haxe.min.js */,
+				EC431D241D50D5E10066AD8E /* hsp.min.js */,
+				EC431D251D50D5E10066AD8E /* htmlbars.min.js */,
+				EC431D261D50D5E10066AD8E /* http.min.js */,
+				EC431D271D50D5E10066AD8E /* inform7.min.js */,
+				EC431D281D50D5E10066AD8E /* ini.min.js */,
+				EC431D291D50D5E10066AD8E /* irpf90.min.js */,
+				EC431D2A1D50D5E10066AD8E /* java.min.js */,
+				EC431D2B1D50D5E10066AD8E /* javascript.min.js */,
+				EC431D2C1D50D5E10066AD8E /* json.min.js */,
+				EC431D2D1D50D5E10066AD8E /* julia.min.js */,
+				EC431D2E1D50D5E10066AD8E /* kotlin.min.js */,
+				EC431D2F1D50D5E10066AD8E /* lasso.min.js */,
+				EC431D301D50D5E10066AD8E /* ldif.min.js */,
+				EC431D311D50D5E10066AD8E /* less.min.js */,
+				EC431D321D50D5E10066AD8E /* lisp.min.js */,
+				EC431D331D50D5E10066AD8E /* livecodeserver.min.js */,
+				EC431D341D50D5E10066AD8E /* livescript.min.js */,
+				EC431D351D50D5E10066AD8E /* lsl.min.js */,
+				EC431D361D50D5E10066AD8E /* lua.min.js */,
+				EC431D371D50D5E10066AD8E /* makefile.min.js */,
+				EC431D381D50D5E10066AD8E /* markdown.min.js */,
+				EC431D391D50D5E10066AD8E /* mathematica.min.js */,
+				EC431D3A1D50D5E10066AD8E /* matlab.min.js */,
+				EC431D3B1D50D5E10066AD8E /* maxima.min.js */,
+				EC431D3C1D50D5E10066AD8E /* mel.min.js */,
+				EC431D3D1D50D5E10066AD8E /* mercury.min.js */,
+				EC431D3E1D50D5E10066AD8E /* mipsasm.min.js */,
+				EC431D3F1D50D5E10066AD8E /* mizar.min.js */,
+				EC431D401D50D5E10066AD8E /* mojolicious.min.js */,
+				EC431D411D50D5E10066AD8E /* monkey.min.js */,
+				EC431D421D50D5E10066AD8E /* moonscript.min.js */,
+				EC431D431D50D5E10066AD8E /* nginx.min.js */,
+				EC431D441D50D5E10066AD8E /* nimrod.min.js */,
+				EC431D451D50D5E10066AD8E /* nix.min.js */,
+				EC431D461D50D5E10066AD8E /* nsis.min.js */,
+				EC431D471D50D5E10066AD8E /* objectivec.min.js */,
+				EC431D481D50D5E10066AD8E /* ocaml.min.js */,
+				EC431D491D50D5E10066AD8E /* openscad.min.js */,
+				EC431D4A1D50D5E10066AD8E /* oxygene.min.js */,
+				EC431D4B1D50D5E10066AD8E /* parser3.min.js */,
+				EC431D4C1D50D5E10066AD8E /* perl.min.js */,
+				EC431D4D1D50D5E10066AD8E /* pf.min.js */,
+				EC431D4E1D50D5E10066AD8E /* php.min.js */,
+				EC431D4F1D50D5E10066AD8E /* pony.min.js */,
+				EC431D501D50D5E10066AD8E /* powershell.min.js */,
+				EC431D511D50D5E10066AD8E /* processing.min.js */,
+				EC431D521D50D5E10066AD8E /* profile.min.js */,
+				EC431D531D50D5E10066AD8E /* prolog.min.js */,
+				EC431D541D50D5E10066AD8E /* protobuf.min.js */,
+				EC431D551D50D5E10066AD8E /* puppet.min.js */,
+				EC431D561D50D5E10066AD8E /* purebasic.min.js */,
+				EC431D571D50D5E10066AD8E /* python.min.js */,
+				EC431D581D50D5E10066AD8E /* q.min.js */,
+				EC431D591D50D5E10066AD8E /* qml.min.js */,
+				EC431D5A1D50D5E10066AD8E /* r.min.js */,
+				EC431D5B1D50D5E10066AD8E /* rib.min.js */,
+				EC431D5C1D50D5E10066AD8E /* roboconf.min.js */,
+				EC431D5D1D50D5E10066AD8E /* rsl.min.js */,
+				EC431D5E1D50D5E20066AD8E /* ruby.min.js */,
+				EC431D5F1D50D5E20066AD8E /* ruleslanguage.min.js */,
+				EC431D601D50D5E20066AD8E /* rust.min.js */,
+				EC431D611D50D5E20066AD8E /* scala.min.js */,
+				EC431D621D50D5E20066AD8E /* scheme.min.js */,
+				EC431D631D50D5E20066AD8E /* scilab.min.js */,
+				EC431D641D50D5E20066AD8E /* scss.min.js */,
+				EC431D651D50D5E20066AD8E /* smali.min.js */,
+				EC431D661D50D5E20066AD8E /* smalltalk.min.js */,
+				EC431D671D50D5E20066AD8E /* sml.min.js */,
+				EC431D681D50D5E20066AD8E /* sqf.min.js */,
+				EC431D691D50D5E20066AD8E /* sql.min.js */,
+				EC431D6A1D50D5E20066AD8E /* stan.min.js */,
+				EC431D6B1D50D5E20066AD8E /* stata.min.js */,
+				EC431D6C1D50D5E20066AD8E /* step21.min.js */,
+				EC431D6D1D50D5E20066AD8E /* stylus.min.js */,
+				EC431D6E1D50D5E20066AD8E /* swift.min.js */,
+				EC431D6F1D50D5E20066AD8E /* taggerscript.min.js */,
+				EC431D701D50D5E20066AD8E /* tap.min.js */,
+				EC431D711D50D5E20066AD8E /* tcl.min.js */,
+				EC431D721D50D5E20066AD8E /* tex.min.js */,
+				EC431D731D50D5E20066AD8E /* thrift.min.js */,
+				EC431D741D50D5E20066AD8E /* tp.min.js */,
+				EC431D751D50D5E20066AD8E /* twig.min.js */,
+				EC431D761D50D5E20066AD8E /* typescript.min.js */,
+				EC431D771D50D5E20066AD8E /* vala.min.js */,
+				EC431D781D50D5E20066AD8E /* vbnet.min.js */,
+				EC431D791D50D5E20066AD8E /* vbscript-html.min.js */,
+				EC431D7A1D50D5E20066AD8E /* vbscript.min.js */,
+				EC431D7B1D50D5E20066AD8E /* verilog.min.js */,
+				EC431D7C1D50D5E20066AD8E /* vhdl.min.js */,
+				EC431D7D1D50D5E20066AD8E /* vim.min.js */,
+				EC431D7E1D50D5E20066AD8E /* x86asm.min.js */,
+				EC431D7F1D50D5E20066AD8E /* xl.min.js */,
+				EC431D801D50D5E20066AD8E /* xml.min.js */,
+				EC431D811D50D5E20066AD8E /* xquery.min.js */,
+				EC431D821D50D5E20066AD8E /* yaml.min.js */,
+				EC431D831D50D5E20066AD8E /* zephir.min.js */,
+			);
+			path = languages;
+			sourceTree = "<group>";
+		};
+		EC431D851D50D5E20066AD8E /* styles */ = {
+			isa = PBXGroup;
+			children = (
+				EC431D861D50D5E20066AD8E /* agate.min.css */,
+				EC431D871D50D5E20066AD8E /* androidstudio.min.css */,
+				EC431D881D50D5E20066AD8E /* arduino-light.min.css */,
+				EC431D891D50D5E20066AD8E /* arta.min.css */,
+				EC431D8A1D50D5E20066AD8E /* ascetic.min.css */,
+				EC431D8B1D50D5E20066AD8E /* atelier-cave-dark.min.css */,
+				EC431D8C1D50D5E20066AD8E /* atelier-cave-light.min.css */,
+				EC431D8D1D50D5E20066AD8E /* atelier-dune-dark.min.css */,
+				EC431D8E1D50D5E20066AD8E /* atelier-dune-light.min.css */,
+				EC431D8F1D50D5E20066AD8E /* atelier-estuary-dark.min.css */,
+				EC431D901D50D5E20066AD8E /* atelier-estuary-light.min.css */,
+				EC431D911D50D5E20066AD8E /* atelier-forest-dark.min.css */,
+				EC431D921D50D5E20066AD8E /* atelier-forest-light.min.css */,
+				EC431D931D50D5E20066AD8E /* atelier-heath-dark.min.css */,
+				EC431D941D50D5E20066AD8E /* atelier-heath-light.min.css */,
+				EC431D951D50D5E20066AD8E /* atelier-lakeside-dark.min.css */,
+				EC431D961D50D5E20066AD8E /* atelier-lakeside-light.min.css */,
+				EC431D971D50D5E20066AD8E /* atelier-plateau-dark.min.css */,
+				EC431D981D50D5E20066AD8E /* atelier-plateau-light.min.css */,
+				EC431D991D50D5E20066AD8E /* atelier-savanna-dark.min.css */,
+				EC431D9A1D50D5E20066AD8E /* atelier-savanna-light.min.css */,
+				EC431D9B1D50D5E20066AD8E /* atelier-seaside-dark.min.css */,
+				EC431D9C1D50D5E20066AD8E /* atelier-seaside-light.min.css */,
+				EC431D9D1D50D5E20066AD8E /* atelier-sulphurpool-dark.min.css */,
+				EC431D9E1D50D5E20066AD8E /* atelier-sulphurpool-light.min.css */,
+				EC431D9F1D50D5E20066AD8E /* brown-paper.min.css */,
+				EC431DA11D50D5E20066AD8E /* codepen-embed.min.css */,
+				EC431DA21D50D5E20066AD8E /* color-brewer.min.css */,
+				EC431DA31D50D5E20066AD8E /* dark.min.css */,
+				EC431DA41D50D5E20066AD8E /* darkula.min.css */,
+				EC431DA51D50D5E20066AD8E /* default.min.css */,
+				EC431DA61D50D5E20066AD8E /* docco.min.css */,
+				EC431DA71D50D5E20066AD8E /* dracula.min.css */,
+				EC431DA81D50D5E20066AD8E /* far.min.css */,
+				EC431DA91D50D5E20066AD8E /* foundation.min.css */,
+				EC431DAA1D50D5E20066AD8E /* github-gist.min.css */,
+				EC431DAB1D50D5E20066AD8E /* github.min.css */,
+				EC431DAC1D50D5E20066AD8E /* googlecode.min.css */,
+				EC431DAD1D50D5E20066AD8E /* grayscale.min.css */,
+				EC431DAE1D50D5E20066AD8E /* gruvbox-dark.min.css */,
+				EC431DAF1D50D5E20066AD8E /* gruvbox-light.min.css */,
+				EC431DB01D50D5E20066AD8E /* hopscotch.min.css */,
+				EC431DB11D50D5E20066AD8E /* hybrid.min.css */,
+				EC431DB21D50D5E20066AD8E /* idea.min.css */,
+				EC431DB31D50D5E20066AD8E /* ir-black.min.css */,
+				EC431DB41D50D5E20066AD8E /* kimbie.dark.min.css */,
+				EC431DB51D50D5E20066AD8E /* kimbie.light.min.css */,
+				EC431DB61D50D5E20066AD8E /* magula.min.css */,
+				EC431DB71D50D5E20066AD8E /* mono-blue.min.css */,
+				EC431DB81D50D5E20066AD8E /* monokai-sublime.min.css */,
+				EC431DB91D50D5E20066AD8E /* monokai.min.css */,
+				EC431DBA1D50D5E20066AD8E /* obsidian.min.css */,
+				EC431DBB1D50D5E20066AD8E /* ocean.min.css */,
+				EC431DBC1D50D5E20066AD8E /* paraiso-dark.min.css */,
+				EC431DBD1D50D5E20066AD8E /* paraiso-light.min.css */,
+				EC431DBF1D50D5E20066AD8E /* pojoaque.min.css */,
+				EC431DC01D50D5E20066AD8E /* purebasic.min.css */,
+				EC431DC11D50D5E20066AD8E /* qtcreator_dark.min.css */,
+				EC431DC21D50D5E20066AD8E /* qtcreator_light.min.css */,
+				EC431DC31D50D5E20066AD8E /* railscasts.min.css */,
+				EC431DC41D50D5E20066AD8E /* rainbow.min.css */,
+				EC431DC51D50D5E20066AD8E /* school-book.min.css */,
+				EC431DC71D50D5E20066AD8E /* solarized-dark.min.css */,
+				EC431DC81D50D5E20066AD8E /* solarized-light.min.css */,
+				EC431DC91D50D5E20066AD8E /* sunburst.min.css */,
+				EC431DCA1D50D5E20066AD8E /* tomorrow-night-blue.min.css */,
+				EC431DCB1D50D5E20066AD8E /* tomorrow-night-bright.min.css */,
+				EC431DCC1D50D5E20066AD8E /* tomorrow-night-eighties.min.css */,
+				EC431DCD1D50D5E20066AD8E /* tomorrow-night.min.css */,
+				EC431DCE1D50D5E20066AD8E /* tomorrow.min.css */,
+				EC431DCF1D50D5E20066AD8E /* vs.min.css */,
+				EC431DD01D50D5E20066AD8E /* xcode.min.css */,
+				EC431DD11D50D5E20066AD8E /* xt256.min.css */,
+				EC431DD21D50D5E20066AD8E /* zenburn.min.css */,
+			);
+			path = styles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EC431CCF1D50D5A10066AD8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC431CD61D50D5A10066AD8E /* Highlightr.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EC431CD11D50D5A10066AD8E /* Highlightr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC431CDA1D50D5A10066AD8E /* Build configuration list for PBXNativeTarget "Highlightr" */;
+			buildPhases = (
+				EC431CCD1D50D5A10066AD8E /* Sources */,
+				EC431CCE1D50D5A10066AD8E /* Frameworks */,
+				EC431CCF1D50D5A10066AD8E /* Headers */,
+				EC431CD01D50D5A10066AD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Highlightr;
+			productName = Highlightr;
+			productReference = EC431CD21D50D5A10066AD8E /* Highlightr.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC431CC91D50D5A10066AD8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jason Nam";
+				TargetAttributes = {
+					EC431CD11D50D5A10066AD8E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EC431CCC1D50D5A10066AD8E /* Build configuration list for PBXProject "Highlightr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC431CC81D50D5A10066AD8E;
+			productRefGroup = EC431CD31D50D5A10066AD8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC431CD11D50D5A10066AD8E /* Highlightr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC431CD01D50D5A10066AD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC431EB31D50D5E20066AD8E /* qtcreator_dark.min.css in Resources */,
+				EC431EBC1D50D5E20066AD8E /* tomorrow-night-blue.min.css in Resources */,
+				EC431E8C1D50D5E20066AD8E /* atelier-savanna-light.min.css in Resources */,
+				EC431E521D50D5E20066AD8E /* ruleslanguage.min.js in Resources */,
+				EC431E981D50D5E20066AD8E /* docco.min.css in Resources */,
+				EC431E801D50D5E20066AD8E /* atelier-dune-light.min.css in Resources */,
+				EC431E9B1D50D5E20066AD8E /* foundation.min.css in Resources */,
+				EC431E611D50D5E20066AD8E /* swift.min.js in Resources */,
+				EC431E0A1D50D5E20066AD8E /* gams.min.js in Resources */,
+				EC431DDD1D50D5E20066AD8E /* asciidoc.min.js in Resources */,
+				EC431EA11D50D5E20066AD8E /* gruvbox-light.min.css in Resources */,
+				EC431E431D50D5E20066AD8E /* powershell.min.js in Resources */,
+				EC431E241D50D5E20066AD8E /* less.min.js in Resources */,
+				EC431DF81D50D5E20066AD8E /* delphi.min.js in Resources */,
+				EC431E761D50D5E20066AD8E /* zephir.min.js in Resources */,
+				EC431DFD1D50D5E20066AD8E /* dos.min.js in Resources */,
+				EC431E821D50D5E20066AD8E /* atelier-estuary-light.min.css in Resources */,
+				EC431E211D50D5E20066AD8E /* kotlin.min.js in Resources */,
+				EC431E941D50D5E20066AD8E /* color-brewer.min.css in Resources */,
+				EC431E541D50D5E20066AD8E /* scala.min.js in Resources */,
+				EC431E951D50D5E20066AD8E /* dark.min.css in Resources */,
+				EC431E5E1D50D5E20066AD8E /* stata.min.js in Resources */,
+				EC431DD81D50D5E20066AD8E /* ada.min.js in Resources */,
+				EC431E351D50D5E20066AD8E /* moonscript.min.js in Resources */,
+				EC431E8D1D50D5E20066AD8E /* atelier-seaside-dark.min.css in Resources */,
+				EC431DD91D50D5E20066AD8E /* apache.min.js in Resources */,
+				EC431E621D50D5E20066AD8E /* taggerscript.min.js in Resources */,
+				EC431E001D50D5E20066AD8E /* dust.min.js in Resources */,
+				EC431E2B1D50D5E20066AD8E /* markdown.min.js in Resources */,
+				EC431E0D1D50D5E20066AD8E /* gherkin.min.js in Resources */,
+				EC431E9D1D50D5E20066AD8E /* github.min.css in Resources */,
+				EC431E7C1D50D5E20066AD8E /* ascetic.min.css in Resources */,
+				EC431E361D50D5E20066AD8E /* nginx.min.js in Resources */,
+				EC431DE51D50D5E20066AD8E /* bnf.min.js in Resources */,
+				EC431E261D50D5E20066AD8E /* livecodeserver.min.js in Resources */,
+				EC431DF71D50D5E20066AD8E /* dart.min.js in Resources */,
+				EC431E171D50D5E20066AD8E /* hsp.min.js in Resources */,
+				EC431E651D50D5E20066AD8E /* tex.min.js in Resources */,
+				EC431EB61D50D5E20066AD8E /* rainbow.min.css in Resources */,
+				EC431EA21D50D5E20066AD8E /* hopscotch.min.css in Resources */,
+				EC431DF61D50D5E20066AD8E /* d.min.js in Resources */,
+				EC431E8E1D50D5E20066AD8E /* atelier-seaside-light.min.css in Resources */,
+				EC431E231D50D5E20066AD8E /* ldif.min.js in Resources */,
+				EC431E411D50D5E20066AD8E /* php.min.js in Resources */,
+				EC431E3A1D50D5E20066AD8E /* objectivec.min.js in Resources */,
+				EC431E581D50D5E20066AD8E /* smali.min.js in Resources */,
+				EC431E6F1D50D5E20066AD8E /* vhdl.min.js in Resources */,
+				EC431E881D50D5E20066AD8E /* atelier-lakeside-light.min.css in Resources */,
+				EC431E1A1D50D5E20066AD8E /* inform7.min.js in Resources */,
+				EC431EC31D50D5E20066AD8E /* xt256.min.css in Resources */,
+				EC431E2E1D50D5E20066AD8E /* maxima.min.js in Resources */,
+				EC431DF41D50D5E20066AD8E /* csp.min.js in Resources */,
+				EC431DD71D50D5E20066AD8E /* actionscript.min.js in Resources */,
+				EC431DEF1D50D5E20066AD8E /* cos.min.js in Resources */,
+				EC431DEE1D50D5E20066AD8E /* coq.min.js in Resources */,
+				EC431EB51D50D5E20066AD8E /* railscasts.min.css in Resources */,
+				EC431DFC1D50D5E20066AD8E /* dockerfile.min.js in Resources */,
+				EC431EA61D50D5E20066AD8E /* kimbie.dark.min.css in Resources */,
+				EC431E1D1D50D5E20066AD8E /* java.min.js in Resources */,
+				EC431E421D50D5E20066AD8E /* pony.min.js in Resources */,
+				EC431EB71D50D5E20066AD8E /* school-book.min.css in Resources */,
+				EC431EB21D50D5E20066AD8E /* purebasic.min.css in Resources */,
+				EC431E0B1D50D5E20066AD8E /* gauss.min.js in Resources */,
+				EC431E031D50D5E20066AD8E /* erb.min.js in Resources */,
+				EC431E861D50D5E20066AD8E /* atelier-heath-light.min.css in Resources */,
+				EC431E901D50D5E20066AD8E /* atelier-sulphurpool-light.min.css in Resources */,
+				EC431EA81D50D5E20066AD8E /* magula.min.css in Resources */,
+				EC431E471D50D5E20066AD8E /* protobuf.min.js in Resources */,
+				EC431DD61D50D5E20066AD8E /* accesslog.min.js in Resources */,
+				EC431EBD1D50D5E20066AD8E /* tomorrow-night-bright.min.css in Resources */,
+				EC431E2D1D50D5E20066AD8E /* matlab.min.js in Resources */,
+				EC431E851D50D5E20066AD8E /* atelier-heath-dark.min.css in Resources */,
+				EC431DE01D50D5E20066AD8E /* autoit.min.js in Resources */,
+				EC431E991D50D5E20066AD8E /* dracula.min.css in Resources */,
+				EC431E8B1D50D5E20066AD8E /* atelier-savanna-dark.min.css in Resources */,
+				EC431EAF1D50D5E20066AD8E /* paraiso-light.min.css in Resources */,
+				EC431E5B1D50D5E20066AD8E /* sqf.min.js in Resources */,
+				EC431E2C1D50D5E20066AD8E /* mathematica.min.js in Resources */,
+				EC431E101D50D5E20066AD8E /* golo.min.js in Resources */,
+				EC431E311D50D5E20066AD8E /* mipsasm.min.js in Resources */,
+				EC431EAB1D50D5E20066AD8E /* monokai.min.css in Resources */,
+				EC431E961D50D5E20066AD8E /* darkula.min.css in Resources */,
+				EC431E511D50D5E20066AD8E /* ruby.min.js in Resources */,
+				EC431E8A1D50D5E20066AD8E /* atelier-plateau-light.min.css in Resources */,
+				EC431E5F1D50D5E20066AD8E /* step21.min.js in Resources */,
+				EC431E641D50D5E20066AD8E /* tcl.min.js in Resources */,
+				EC431E5D1D50D5E20066AD8E /* stan.min.js in Resources */,
+				EC431E1E1D50D5E20066AD8E /* javascript.min.js in Resources */,
+				EC431E491D50D5E20066AD8E /* purebasic.min.js in Resources */,
+				EC431E0F1D50D5E20066AD8E /* go.min.js in Resources */,
+				EC431E9F1D50D5E20066AD8E /* grayscale.min.css in Resources */,
+				EC431E381D50D5E20066AD8E /* nix.min.js in Resources */,
+				EC431DDB1D50D5E20066AD8E /* arduino.min.js in Resources */,
+				EC431E091D50D5E20066AD8E /* fsharp.min.js in Resources */,
+				EC431DE81D50D5E20066AD8E /* capnproto.min.js in Resources */,
+				EC431E751D50D5E20066AD8E /* yaml.min.js in Resources */,
+				EC431E3E1D50D5E20066AD8E /* parser3.min.js in Resources */,
+				EC431E3C1D50D5E20066AD8E /* openscad.min.js in Resources */,
+				EC431E7E1D50D5E20066AD8E /* atelier-cave-light.min.css in Resources */,
+				EC431E071D50D5E20066AD8E /* fix.min.js in Resources */,
+				EC431E531D50D5E20066AD8E /* rust.min.js in Resources */,
+				EC431EA91D50D5E20066AD8E /* mono-blue.min.css in Resources */,
+				EC431DF31D50D5E20066AD8E /* cs.min.js in Resources */,
+				EC431E201D50D5E20066AD8E /* julia.min.js in Resources */,
+				EC431E7A1D50D5E20066AD8E /* arduino-light.min.css in Resources */,
+				EC431E1C1D50D5E20066AD8E /* irpf90.min.js in Resources */,
+				EC431DE71D50D5E20066AD8E /* cal.min.js in Resources */,
+				EC431E441D50D5E20066AD8E /* processing.min.js in Resources */,
+				EC431E401D50D5E20066AD8E /* pf.min.js in Resources */,
+				EC431DF21D50D5E20066AD8E /* crystal.min.js in Resources */,
+				EC431DD41D50D5E20066AD8E /* highlight.min.js in Resources */,
+				EC431EA31D50D5E20066AD8E /* hybrid.min.css in Resources */,
+				EC431DEB1D50D5E20066AD8E /* clojure.min.js in Resources */,
+				EC431E721D50D5E20066AD8E /* xl.min.js in Resources */,
+				EC431E2A1D50D5E20066AD8E /* makefile.min.js in Resources */,
+				EC431E4C1D50D5E20066AD8E /* qml.min.js in Resources */,
+				EC431EA41D50D5E20066AD8E /* idea.min.css in Resources */,
+				EC431E551D50D5E20066AD8E /* scheme.min.js in Resources */,
+				EC431E481D50D5E20066AD8E /* puppet.min.js in Resources */,
+				EC431E831D50D5E20066AD8E /* atelier-forest-dark.min.css in Resources */,
+				EC431EAD1D50D5E20066AD8E /* ocean.min.css in Resources */,
+				EC431E131D50D5E20066AD8E /* haml.min.js in Resources */,
+				EC431EA01D50D5E20066AD8E /* gruvbox-dark.min.css in Resources */,
+				EC431E191D50D5E20066AD8E /* http.min.js in Resources */,
+				EC431E6E1D50D5E20066AD8E /* verilog.min.js in Resources */,
+				EC431E2F1D50D5E20066AD8E /* mel.min.js in Resources */,
+				EC431E6B1D50D5E20066AD8E /* vbnet.min.js in Resources */,
+				EC431DEA1D50D5E20066AD8E /* clojure-repl.min.js in Resources */,
+				EC431E591D50D5E20066AD8E /* smalltalk.min.js in Resources */,
+				EC431E781D50D5E20066AD8E /* agate.min.css in Resources */,
+				EC431E3B1D50D5E20066AD8E /* ocaml.min.js in Resources */,
+				EC431E4D1D50D5E20066AD8E /* r.min.js in Resources */,
+				EC431E811D50D5E20066AD8E /* atelier-estuary-dark.min.css in Resources */,
+				EC431E971D50D5E20066AD8E /* default.min.css in Resources */,
+				EC431E5C1D50D5E20066AD8E /* sql.min.js in Resources */,
+				EC431E9C1D50D5E20066AD8E /* github-gist.min.css in Resources */,
+				EC431E331D50D5E20066AD8E /* mojolicious.min.js in Resources */,
+				EC431E061D50D5E20066AD8E /* excel.min.js in Resources */,
+				EC431E561D50D5E20066AD8E /* scilab.min.js in Resources */,
+				EC431DED1D50D5E20066AD8E /* coffeescript.min.js in Resources */,
+				EC431DE21D50D5E20066AD8E /* axapta.min.js in Resources */,
+				EC431E701D50D5E20066AD8E /* vim.min.js in Resources */,
+				EC431E6D1D50D5E20066AD8E /* vbscript.min.js in Resources */,
+				EC431EAC1D50D5E20066AD8E /* obsidian.min.css in Resources */,
+				EC431E871D50D5E20066AD8E /* atelier-lakeside-dark.min.css in Resources */,
+				EC431E4B1D50D5E20066AD8E /* q.min.js in Resources */,
+				EC431E051D50D5E20066AD8E /* erlang.min.js in Resources */,
+				EC431DF01D50D5E20066AD8E /* cpp.min.js in Resources */,
+				EC431E281D50D5E20066AD8E /* lsl.min.js in Resources */,
+				EC431E1B1D50D5E20066AD8E /* ini.min.js in Resources */,
+				EC431E301D50D5E20066AD8E /* mercury.min.js in Resources */,
+				EC431DDC1D50D5E20066AD8E /* armasm.min.js in Resources */,
+				EC431E7D1D50D5E20066AD8E /* atelier-cave-dark.min.css in Resources */,
+				EC431EBB1D50D5E20066AD8E /* sunburst.min.css in Resources */,
+				EC431E1F1D50D5E20066AD8E /* json.min.js in Resources */,
+				EC431DF11D50D5E20066AD8E /* crmsh.min.js in Resources */,
+				EC431EAE1D50D5E20066AD8E /* paraiso-dark.min.css in Resources */,
+				EC431E671D50D5E20066AD8E /* tp.min.js in Resources */,
+				EC431E0E1D50D5E20066AD8E /* glsl.min.js in Resources */,
+				EC431E341D50D5E20066AD8E /* monkey.min.js in Resources */,
+				EC431DE91D50D5E20066AD8E /* ceylon.min.js in Resources */,
+				EC431EAA1D50D5E20066AD8E /* monokai-sublime.min.css in Resources */,
+				EC431EC11D50D5E20066AD8E /* vs.min.css in Resources */,
+				EC431DDE1D50D5E20066AD8E /* aspectj.min.js in Resources */,
+				EC431E291D50D5E20066AD8E /* lua.min.js in Resources */,
+				EC431E141D50D5E20066AD8E /* handlebars.min.js in Resources */,
+				EC431EB91D50D5E20066AD8E /* solarized-dark.min.css in Resources */,
+				EC431DDF1D50D5E20066AD8E /* autohotkey.min.js in Resources */,
+				EC431DE31D50D5E20066AD8E /* bash.min.js in Resources */,
+				EC431E6A1D50D5E20066AD8E /* vala.min.js in Resources */,
+				EC431E371D50D5E20066AD8E /* nimrod.min.js in Resources */,
+				EC431E271D50D5E20066AD8E /* livescript.min.js in Resources */,
+				EC431E251D50D5E20066AD8E /* lisp.min.js in Resources */,
+				EC431DFE1D50D5E20066AD8E /* dsconfig.min.js in Resources */,
+				EC431DDA1D50D5E20066AD8E /* applescript.min.js in Resources */,
+				EC431E741D50D5E20066AD8E /* xquery.min.js in Resources */,
+				EC431E221D50D5E20066AD8E /* lasso.min.js in Resources */,
+				EC431E8F1D50D5E20066AD8E /* atelier-sulphurpool-dark.min.css in Resources */,
+				EC431E691D50D5E20066AD8E /* typescript.min.js in Resources */,
+				EC431EC01D50D5E20066AD8E /* tomorrow.min.css in Resources */,
+				EC431EA71D50D5E20066AD8E /* kimbie.light.min.css in Resources */,
+				EC431DF51D50D5E20066AD8E /* css.min.js in Resources */,
+				EC431E321D50D5E20066AD8E /* mizar.min.js in Resources */,
+				EC431E121D50D5E20066AD8E /* groovy.min.js in Resources */,
+				EC431E5A1D50D5E20066AD8E /* sml.min.js in Resources */,
+				EC431E3D1D50D5E20066AD8E /* oxygene.min.js in Resources */,
+				EC431E451D50D5E20066AD8E /* profile.min.js in Resources */,
+				EC431E021D50D5E20066AD8E /* elm.min.js in Resources */,
+				EC431E571D50D5E20066AD8E /* scss.min.js in Resources */,
+				EC431E841D50D5E20066AD8E /* atelier-forest-light.min.css in Resources */,
+				EC431EBE1D50D5E20066AD8E /* tomorrow-night-eighties.min.css in Resources */,
+				EC431E631D50D5E20066AD8E /* tap.min.js in Resources */,
+				EC431DE11D50D5E20066AD8E /* avrasm.min.js in Resources */,
+				EC431DFF1D50D5E20066AD8E /* dts.min.js in Resources */,
+				EC431E4E1D50D5E20066AD8E /* rib.min.js in Resources */,
+				EC431EBF1D50D5E20066AD8E /* tomorrow-night.min.css in Resources */,
+				EC431E601D50D5E20066AD8E /* stylus.min.js in Resources */,
+				EC431E681D50D5E20066AD8E /* twig.min.js in Resources */,
+				EC431EC21D50D5E20066AD8E /* xcode.min.css in Resources */,
+				EC431E0C1D50D5E20066AD8E /* gcode.min.js in Resources */,
+				EC431DD51D50D5E20066AD8E /* 1c.min.js in Resources */,
+				EC431E081D50D5E20066AD8E /* fortran.min.js in Resources */,
+				EC431E791D50D5E20066AD8E /* androidstudio.min.css in Resources */,
+				EC431E7F1D50D5E20066AD8E /* atelier-dune-dark.min.css in Resources */,
+				EC431EC41D50D5E20066AD8E /* zenburn.min.css in Resources */,
+				EC431E9E1D50D5E20066AD8E /* googlecode.min.css in Resources */,
+				EC431E6C1D50D5E20066AD8E /* vbscript-html.min.js in Resources */,
+				EC431E9A1D50D5E20066AD8E /* far.min.css in Resources */,
+				EC431E731D50D5E20066AD8E /* xml.min.js in Resources */,
+				EC431DFB1D50D5E20066AD8E /* dns.min.js in Resources */,
+				EC431E931D50D5E20066AD8E /* codepen-embed.min.css in Resources */,
+				EC431E7B1D50D5E20066AD8E /* arta.min.css in Resources */,
+				EC431E181D50D5E20066AD8E /* htmlbars.min.js in Resources */,
+				EC431E661D50D5E20066AD8E /* thrift.min.js in Resources */,
+				EC431DE61D50D5E20066AD8E /* brainfuck.min.js in Resources */,
+				EC431DEC1D50D5E20066AD8E /* cmake.min.js in Resources */,
+				EC431E501D50D5E20066AD8E /* rsl.min.js in Resources */,
+				EC431DFA1D50D5E20066AD8E /* django.min.js in Resources */,
+				EC431E391D50D5E20066AD8E /* nsis.min.js in Resources */,
+				EC431EB11D50D5E20066AD8E /* pojoaque.min.css in Resources */,
+				EC431E151D50D5E20066AD8E /* haskell.min.js in Resources */,
+				EC431E4F1D50D5E20066AD8E /* roboconf.min.js in Resources */,
+				EC431E161D50D5E20066AD8E /* haxe.min.js in Resources */,
+				EC431E911D50D5E20066AD8E /* brown-paper.min.css in Resources */,
+				EC431E461D50D5E20066AD8E /* prolog.min.js in Resources */,
+				EC431EA51D50D5E20066AD8E /* ir-black.min.css in Resources */,
+				EC431E3F1D50D5E20066AD8E /* perl.min.js in Resources */,
+				EC431E111D50D5E20066AD8E /* gradle.min.js in Resources */,
+				EC431E041D50D5E20066AD8E /* erlang-repl.min.js in Resources */,
+				EC431E4A1D50D5E20066AD8E /* python.min.js in Resources */,
+				EC431E711D50D5E20066AD8E /* x86asm.min.js in Resources */,
+				EC431EBA1D50D5E20066AD8E /* solarized-light.min.css in Resources */,
+				EC431DE41D50D5E20066AD8E /* basic.min.js in Resources */,
+				EC431EB41D50D5E20066AD8E /* qtcreator_light.min.css in Resources */,
+				EC431DF91D50D5E20066AD8E /* diff.min.js in Resources */,
+				EC431E891D50D5E20066AD8E /* atelier-plateau-dark.min.css in Resources */,
+				EC431E011D50D5E20066AD8E /* elixir.min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC431CCD1D50D5A10066AD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC431EC91D50D60C0066AD8E /* CodeAttributedString.swift in Sources */,
+				EC431ECC1D50D60C0066AD8E /* Theme.swift in Sources */,
+				EC431ECB1D50D60C0066AD8E /* HTMLUtils.swift in Sources */,
+				EC431ECA1D50D60C0066AD8E /* Highlightr.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC431CD81D50D5A10066AD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EC431CD91D50D5A10066AD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC431CDB1D50D5A10066AD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Highlightr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonnam.Highlightr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC431CDC1D50D5A10066AD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Highlightr/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jasonnam.Highlightr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC431CCC1D50D5A10066AD8E /* Build configuration list for PBXProject "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC431CD81D50D5A10066AD8E /* Debug */,
+				EC431CD91D50D5A10066AD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC431CDA1D50D5A10066AD8E /* Build configuration list for PBXNativeTarget "Highlightr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC431CDB1D50D5A10066AD8E /* Debug */,
+				EC431CDC1D50D5A10066AD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC431CC91D50D5A10066AD8E /* Project object */;
+}
