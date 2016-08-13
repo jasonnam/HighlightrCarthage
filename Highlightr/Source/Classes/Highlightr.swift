@@ -149,7 +149,14 @@ public class Highlightr
         let res = jsContext.evaluateScript(command)
         return res.toArray() as! [String]
     }
-    
+
+    public func isSupportedLanguage(language: String) -> Bool
+    {
+        let command =  String.init(format: "%@.getLanguage(\"%@\");", hljs, language)
+        let res = jsContext.evaluateScript(command).toObject()
+        return res != nil
+    }
+
     //Private & Internal
     private func processHTMLString(string: String) -> NSAttributedString?
     {
