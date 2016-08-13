@@ -82,7 +82,7 @@ public class Highlightr
      
      - returns: NSAttributedString with the detected code highlighted.
      */
-    public func highlight(languageName: String, code: String, fastRender: Bool) -> NSAttributedString?
+    public func highlight(languageName: String?, code: String, fastRender: Bool) -> NSAttributedString?
     {
         var fixedCode = code.stringByReplacingOccurrencesOfString("\\",withString: "\\\\");
         fixedCode = fixedCode.stringByReplacingOccurrencesOfString("\'",withString: "\\\'");
@@ -90,7 +90,12 @@ public class Highlightr
         fixedCode = fixedCode.stringByReplacingOccurrencesOfString("\n", withString:"\\n");
         fixedCode = fixedCode.stringByReplacingOccurrencesOfString("\r", withString:"");
 
-        let command =  String.init(format: "%@.highlight(\"%@\",\"%@\").value;", hljs,languageName, fixedCode)
+        var command: String! = nil
+        if let languageName = languageName {
+            command = String.init(format: "%@.highlight(\"%@\",\"%@\").value;", hljs,languageName, fixedCode)
+        } else {
+            command = String.init(format: "%@.highlightAuto(\"%@\").value;", hljs,fixedCode)
+        }
         let res = jsContext.evaluateScript(command)
         guard var string = res!.toString() else
         {
