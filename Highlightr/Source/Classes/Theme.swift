@@ -75,6 +75,11 @@ public class Theme {
      */
     public func setCodeFont(font: RPFont)
     {
+        setCodeFont(font, italicCodeFont: nil, boldCodeFont: nil)
+    }
+
+    public func setCodeFont(font: RPFont, italicCodeFont: RPFont?, boldCodeFont: RPFont?)
+    {
         codeFont = font
         
         #if os(iOS) || os(tvOS)
@@ -93,20 +98,20 @@ public class Theme {
                                                                 NSFontFaceAttribute:"Oblique"])
         #endif
         
-        boldCodeFont = RPFont(descriptor: boldDescriptor, size: font.pointSize)
-        italicCodeFont = RPFont(descriptor: italicDescriptor, size: font.pointSize)
+        self.boldCodeFont = boldCodeFont ?? RPFont(descriptor: boldDescriptor, size: font.pointSize)
+        self.italicCodeFont = italicCodeFont ?? RPFont(descriptor: italicDescriptor, size: font.pointSize)
         
-        if(italicCodeFont == nil || italicCodeFont.familyName != font.familyName)
+        if(self.italicCodeFont == nil || self.italicCodeFont.familyName != font.familyName)
         {
-            italicCodeFont = RPFont(descriptor: obliqueDescriptor, size: font.pointSize)
-        } else if(italicCodeFont == nil )
+            self.italicCodeFont = RPFont(descriptor: obliqueDescriptor, size: font.pointSize)
+        } else if(self.italicCodeFont == nil )
         {
-            italicCodeFont = font
+            self.italicCodeFont = font
         }
         
-        if(boldCodeFont == nil)
+        if(self.boldCodeFont == nil)
         {
-            boldCodeFont = font
+            self.boldCodeFont = font
         }
 
         if(themeDict != nil)
