@@ -32,7 +32,15 @@ public class Theme {
     
     private var themeDict : RPThemeDict!
     private var strippedTheme : RPThemeStringDict!
-    
+
+    public var lineSpacing: CGFloat = 0 {
+        didSet {
+            paragraphStyle.lineSpacing = lineSpacing
+        }
+    }
+
+    private var paragraphStyle = NSMutableParagraphStyle()
+
         /// Default background color for the current theme.
     public var themeBackgroundColor : RPColor!
     
@@ -138,6 +146,8 @@ public class Theme {
                     }
                 }
             }
+            
+            attrs[NSParagraphStyleAttributeName] = paragraphStyle
             
             returnString = NSAttributedString(string: string, attributes:attrs )
         }
