@@ -100,7 +100,7 @@ public class CodeAttributedString : NSTextStorage
             {
                 let string = (self.string as NSString)
                 let range = string.paragraphRangeForRange(editedRange)
-                highlight(range)
+                highlight(NSMakeRange(range.location, string.length - range.location))
             }
         }
     }
