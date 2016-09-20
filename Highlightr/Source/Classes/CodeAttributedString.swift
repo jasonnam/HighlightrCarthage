@@ -9,170 +9,139 @@
 import Foundation
 
 @objc public protocol HighlightDelegate {
-    /**
-     If this method returns *false*, the highlighting process will be skipped for this range.
-     
-     - parameter range: NSRange
-     
-     - returns: Bool
-     */
-    optional func shouldHighlight(range:NSRange) -> Bool
-    /**
-     Called after a range of the string was highlighted, if there was an error **success** will be *false*.
-     
-     - parameter range:   NSRange
-     - parameter success: Bool
-     */
-    optional func didHighlight(range:NSRange, success: Bool)
+    /// If this method returns *false*, the highlighting process will be skipped for this range.
+    ///
+    /// - parameter range: NSRange
+    ///
+    /// - returns: Bool
+    @objc optional func shouldHighlight(in range: NSRange) -> Bool
+
+    /// Called after a range of the string was highlighted, if there was an error **success** will be *false*.
+    ///
+    /// - parameter range: NSRange
+    /// - parameter success: Bool
+    @objc optional func didHighlight(in range:NSRange, success: Bool)
 }
 
-public class CodeAttributedString : NSTextStorage
-{
+open class CodeAttributedString : NSTextStorage {
     private var rawString = ""
-    let stringStorage = NSMutableAttributedString(string: "")
+    private let stringStorage = NSMutableAttributedString(string: "")
 
-        /// Highlightr instace used internally for highlighting. Use this for configuring the theme.
-    public var highlightr = Highlightr()!
-    
-        /// This object will be notified before and after the highlighting.
-    public var highlightDelegate : HighlightDelegate?
+    /// Highlightr instace used internally for highlighting. Use this for configuring the theme.
+    open var highlightr = Highlightr()!
 
-        ///Language syntax to use for highlighting.
-    public var language : String?
-    {
+    /// This object will be notified before and after the highlighting.
+    open var highlightDelegate: HighlightDelegate?
+
+    ///Language syntax to use for highlighting.
+    open var language: String? {
         didSet {
-            highlight(NSMakeRange(0, stringStorage.length))
+            highlight(in: NSMakeRange(0, stringStorage.length))
         }
     }
-    
+
     private var operationID = 0
-    
-        /// Returns a standard String based on the current one.
-    public override var string: String
-    {
+
+    /// Returns a standard String based on the current one.
+    open override var string: String {
         get {
             return rawString
         }
     }
-    
-    /**
-     Returns the attributes for the character at a given index.
-     
-     - parameter location: Int
-     - parameter range:    NSRangePointer
-     
-     - returns: Attributes
-     */
-    public override func attributesAtIndex(location: Int, effectiveRange range: NSRangePointer) -> [String : AnyObject]
-    {
-        return stringStorage.attributesAtIndex(location, effectiveRange: range)
+
+    /// Returns the attributes for the character at a given index.
+    ///
+    /// - parameter location: Int
+    /// - parameter range: NSRangePointer
+    ///
+    /// - returns: Attributes
+    open override func attributes(at location: Int, effectiveRange range: NSRangePointer?) -> [String : Any] {
+        return stringStorage.attributes(at: location, effectiveRange: range)
     }
-    
-    /**
-     Replaces the characters at the given range with the provided string.
-     
-     - parameter range: NSRange
-     - parameter str:   String
-     */
-    public override func replaceCharactersInRange(range: NSRange, withString str: String)
-    {
-        stringStorage.replaceCharactersInRange(range, withString: str)
+
+    /// Replaces the characters at the given range with the provided string.
+    ///
+    /// - parameter range: NSRange
+    /// - parameter string: String
+    open override func replaceCharacters(in range: NSRange, with string: String) {
+        stringStorage.replaceCharacters(in: range, with: string)
         rawString = stringStorage.string
-        self.edited(NSTextStorageEditActions.EditedCharacters, range: range, changeInLength: (str as NSString).length - range.length)
+        edited(NSTextStorageEditActions.editedCharacters, range: range, changeInLength: string.characters.count - range.length)
     }
-    
-    /**
-     Sets the attributes for the characters in the specified range to the specified attributes.
-     
-     - parameter attrs: [String : AnyObject]
-     - parameter range: NSRange
-     */
-    public override func setAttributes(attrs: [String : AnyObject]?, range: NSRange)
-    {
+
+    /// Sets the attributes for the characters in the specified range to the specified attributes.
+    ///
+    /// - parameter attributes: [String : AnyObject]
+    /// - parameter range: NSRange
+    open override func setAttributes(_ attrs: [String : Any]?, range: NSRange) {
         stringStorage.setAttributes(attrs, range: range)
-        self.edited(NSTextStorageEditActions.EditedAttributes, range: range, changeInLength: 0)
+        edited(NSTextStorageEditActions.editedAttributes, range: range, changeInLength: 0)
     }
-    
-    /**
-     Called internally everytime the string was modified.
-     */
-    public override func processEditing()
-    {
+
+    /// Called internally everytime the string was modified.
+    open override func processEditing() {
         super.processEditing()
-        if language != nil {
-            if self.editedMask.contains(.EditedCharacters)
-            {
-                let string = (self.string as NSString)
-                let range = string.paragraphRangeForRange(editedRange)
-                if string.substringWithRange(range) != "" {
-                    highlight(NSMakeRange(range.location, string.length - range.location))
-                }
-            }
+        guard language != nil, editedMask.contains(.editedCharacters) else {
+            return
+        }
+
+        let string = self.string as NSString
+        let range = string.paragraphRange(for: editedRange)
+        if string.substring(with: range) != "" {
+            highlight(in: NSMakeRange(range.location, string.length - range.location))
         }
     }
 
-    
-    func highlight(range: NSRange)
-    {
-        if(language == nil)
-        {
-            return;
-        }
-        
-        if let highlightDelegate = highlightDelegate
-        {
-            let shouldHighlight : Bool? = highlightDelegate.shouldHighlight?(range)
-            if(shouldHighlight != nil && !shouldHighlight!)
-            {
-                return;
-            }
+    func highlight(in range: NSRange) {
+        guard let language = language else {
+            return
         }
 
-        
+        if let shouldHighlight = highlightDelegate?.shouldHighlight?(in: range), !shouldHighlight {
+            return
+        }
+
         let ID = operationID + 1
         self.operationID = ID
-        
+
         let string = (self.string as NSString)
-        let line = string.substringWithRange(range)
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(1 * Double(NSEC_PER_SEC))), dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0)) {
+        let line = string.substring(with: range)
+        DispatchQueue.global(qos: DispatchQoS.QoSClass.background).asyncAfter(deadline: DispatchTime.now() + Double(Int64(1 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)) {
             guard self.operationID == ID else {
                 return
             }
-            
-            let tmpStrg = self.highlightr.highlight(self.language!, code: line, fastRender: true)
-            dispatch_async(dispatch_get_main_queue()) {
+
+            guard let tempString = self.highlightr.highlight(with: language, code: line, fastRender: true) else {
+                return
+            }
+
+            DispatchQueue.main.async {
                 guard self.operationID == ID else {
                     return
                 }
 
                 //Checks to see if this highlighting is still valid.
-                if((range.location + range.length) > self.stringStorage.length)
-                {
-                    self.highlightDelegate?.didHighlight?(range, success: false)
-                    return;
+                if (range.location + range.length) > self.stringStorage.length {
+                    self.highlightDelegate?.didHighlight?(in: range, success: false)
+                    return
                 }
-                
-                if(tmpStrg?.string != self.stringStorage.attributedSubstringFromRange(range).string)
-                {
-                    self.highlightDelegate?.didHighlight?(range, success: false)
-                    return;
+
+                if tempString.string != self.stringStorage.attributedSubstring(from: range).string {
+                    self.highlightDelegate?.didHighlight?(in: range, success: false)
+                    return
                 }
-                
+
                 self.beginEditing()
-                tmpStrg?.enumerateAttributesInRange(NSMakeRange(0, (tmpStrg?.length)!), options: [], usingBlock: { (attrs, locRange, stop) in
-                    var fixedRange = NSMakeRange(range.location+locRange.location, locRange.length)
-                    fixedRange.length = (fixedRange.location + fixedRange.length < string.length) ? fixedRange.length : string.length-fixedRange.location
+                tempString.enumerateAttributes(in: NSMakeRange(0, tempString.length), options: []) { attrs, locRange, _ in
+                    var fixedRange = NSMakeRange(range.location + locRange.location, locRange.length)
+                    fixedRange.length = (fixedRange.location + fixedRange.length < string.length) ? fixedRange.length : string.length - fixedRange.location
                     fixedRange.length = (fixedRange.length >= 0) ? fixedRange.length : 0
                     self.stringStorage.setAttributes(attrs, range: fixedRange)
-                })
+                }
                 self.endEditing()
-                self.edited(NSTextStorageEditActions.EditedAttributes, range: range, changeInLength: 0)
-                self.highlightDelegate?.didHighlight?(range, success: true)
+                self.edited(NSTextStorageEditActions.editedAttributes, range: range, changeInLength: 0)
+                self.highlightDelegate?.didHighlight?(in: range, success: true)
             }
-            
         }
-        
     }
-    
-    
 }

@@ -4,14 +4,14 @@ import Foundation
 //Adapted from: https://gist.github.com/jrmgx/3f9f1d330b295cf6b1c6
 
 private let characterEntities : [String: Character] = [
-    
+
     // XML predefined entities:
     "&quot;"     : "\"",
     "&amp;"      : "&",
     "&apos;"     : "'",
     "&lt;"       : "<",
     "&gt;"       : ">",
-    
+
     // HTML character entity references:
     "&nbsp;"     : "\u{00A0}",
     "&iexcl;"    : "\u{00A1}",
@@ -264,31 +264,32 @@ private let characterEntities : [String: Character] = [
     
 ]
 
-internal class HTMLUtils {
-    
+class HTMLUtils {
     // Decode the HTML character entity to the corresponding
     // Unicode character, return `nil` for invalid input.
     //     decode("&#64;")    --> "@"
     //     decode("&#x20ac;") --> "€"
     //     decode("&lt;")     --> "<"
     //     decode("&foo;")    --> nil
-    class func decode(entity : String) -> Character? {
-        if entity.hasPrefix("&#x") || entity.hasPrefix("&#X"){
-            return decodeNumeric(entity.substringFromIndex(entity.startIndex.advancedBy(3)), base: 16)
+    class func decode(_ entity : String) -> Character? {
+        if entity.hasPrefix("&#x") || entity.hasPrefix("&#X") {
+            return decodeNumeric(entity.substring(from: entity.characters.index(entity.startIndex, offsetBy: 3)), base: 16)
         } else if entity.hasPrefix("&#") {
-            return decodeNumeric(entity.substringFromIndex(entity.startIndex.advancedBy(2)), base: 10)
+            return decodeNumeric(entity.substring(from: entity.characters.index(entity.startIndex, offsetBy: 2)), base: 10)
         } else {
             return characterEntities[entity]
         }
     }
-    
+
     // Convert the number in the string to the corresponding
     // Unicode character, e.g.
     //    decodeNumeric("64", 10)   --> "@"
     //    decodeNumeric("20ac", 16) --> "€"
-    class func decodeNumeric(string : String, base : Int32) -> Character? {
-        let code = UInt32(strtoul(string, nil, base))
-        return Character(UnicodeScalar(code))
+    class func decodeNumeric(_ string : String, base : Int32) -> Character? {
+        guard let unicodeScalar = UnicodeScalar(UInt32(strtoul(string, nil, base))) else {
+            return nil
+        }
+
+        return Character(unicodeScalar)
     }
-    
 }
