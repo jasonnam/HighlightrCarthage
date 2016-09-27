@@ -83,9 +83,9 @@ open class Highlightr {
         var command: String! = nil
 
         if let languageName = languageName {
-            command = "\(hljs).highlight(\(languageName),\(fixedCode)).value;"
+            command = "\(hljs).highlight(\"\(languageName)\",\"\(fixedCode)\").value;"
         } else {
-            command = "\(hljs).highlightAuto(\(fixedCode)).value;"
+            command = "\(hljs).highlightAuto(\"\(fixedCode)\").value;"
         }
 
         guard var string = jsContext.evaluateScript(command).toString() else {
@@ -127,7 +127,7 @@ open class Highlightr {
     }
 
     open func isSupportedLanguage(_ language: String) -> Bool {
-        return jsContext.evaluateScript("\(hljs).getLanguage(\(language));").toObject() != nil
+        return jsContext.evaluateScript("\(hljs).getLanguage(\"\(language)\");").toObject() != nil
     }
 
     //Private & Internal
